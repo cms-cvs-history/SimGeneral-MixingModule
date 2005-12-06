@@ -17,11 +17,11 @@ do
 # execute Mixing Module
    echo executing MixingModule $i....
    /bin/rm /tmp/testsuite1_$i.cfg >/dev/null
-   sed "s/xxx/$i/" testsuite1.cfg >/tmp/testsuite1_$i.cfg
+   sed "s/xxx/$i/" data/testsuite1.cfg >/tmp/testsuite1_$i.cfg
    cmsRun --parameter-set /tmp/testsuite1_$i.cfg
 # create histos
 echo creating histos $i ...
     /bin/rm /tmp/testsuite2_$i.cfg >/dev/null
-    sed "s/xxx/$i/" testsuite2.cfg >/tmp/testsuite2_$i.cfg
+    sed "s/xxx/$i/" data/testsuite2.cfg >/tmp/testsuite2_$i.cfg
     cmsRun --parameter-set /tmp/testsuite2_$i.cfg
 done
