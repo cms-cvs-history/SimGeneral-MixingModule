@@ -1,11 +1,12 @@
 {
 TFile f("histos.root");
-for (bcr=-1;bcr<=2;bcr++)
+int bcr;
+for (bcr=-5;bcr<=3;bcr++)
 {
   char name[20] ;
   sprintf(name,"Canvas_Bcr_%d",bcr);
   TCanvas *c = new TCanvas(name,name);
-  gPad->Divide(3,2);
+  gPad->Divide(3,3);
   // SimTracks
   gPad->cd(1);
   sprintf(name,"Tracks_%d",bcr);
@@ -29,9 +30,14 @@ for (bcr=-1;bcr<=2;bcr++)
   TH1I * hist = (TH1I*)f.Get(name);
   hist->Draw();
   c->cd(6);
-  sprintf(name,"TrackPointers_signal_%d",bcr);
+  sprintf(name,"TrackPointers_%d",bcr);
   TH1I * hist = (TH1I*)f.Get(name);
   hist->Draw();
-  
+  c->cd(7);
+  sprintf(name,"Tof_%d",bcr);
+  TH1I * hist = (TH1I*)f.Get(name);
+  hist->Draw();
+  c->cd(8);
+ 
 }
 }

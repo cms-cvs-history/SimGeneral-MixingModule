@@ -16,12 +16,12 @@ do
    echo "\n===================> preparing for $i"
 # execute Mixing Module
    echo executing MixingModule $i....
-   /bin/rm /tmp/testsuite1_$i.cfg >/dev/null
+   /bin/rm /tmp/testsuite1_$i.cfg  2>&1 >/dev/null
    sed "s/xxx/$i/" data/testsuite1.cfg >/tmp/testsuite1_$i.cfg
    cmsRun --parameter-set /tmp/testsuite1_$i.cfg
 # create histos
 echo creating histos $i ...
-    /bin/rm /tmp/testsuite2_$i.cfg >/dev/null
-    sed "s/xxx/$i/" data/testsuite2.cfg >/tmp/testsuite2_$i.cfg
+    /bin/rm /tmp/testsuite2_$i.cfg 2>&1 >/dev/null
+    sed "s/xxx/$i/" data/testsuite2.cfg | sed "s/bcrs/$bcrstart/" | sed "s/bcre/$bcrend/" >/tmp/testsuite2_$i.cfg
     cmsRun --parameter-set /tmp/testsuite2_$i.cfg
 done
