@@ -9,7 +9,7 @@ for (bcr=-5;bcr<=3;bcr++)
   gPad->Divide(3,3);
   // SimTracks
   gPad->cd(1);
-  sprintf(name,"Tracks_%d",bcr);
+  sprintf(name,"Tracks_bcr_%d",bcr);
   TH1I * hist = (TH1I*)f.Get(name);
   hist->Draw();
   c->cd(2);
@@ -22,7 +22,7 @@ for (bcr=-5;bcr<=3;bcr++)
   hist->Draw();
   // SimVertices
   c->cd(4);
-  sprintf(name,"Vertices_%d",bcr);
+  sprintf(name,"Vertices_bcr_%d",bcr);
   TH1I * hist = (TH1I*)f.Get(name);
   hist->Draw();
   c->cd(5);
@@ -34,7 +34,7 @@ for (bcr=-5;bcr<=3;bcr++)
   TH1I * hist = (TH1I*)f.Get(name);
   hist->Draw();
   c->cd(7);
-  sprintf(name,"Tof_%d",bcr);
+  sprintf(name,"Tof_bcr_%d",bcr);
   TH1I * hist = (TH1I*)f.Get(name);
   hist->Draw();
   c->cd(8);
