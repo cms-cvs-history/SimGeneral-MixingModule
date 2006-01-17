@@ -34,10 +34,13 @@ for (bcr=-5;bcr<=3;bcr++)
   TH1I * hist = (TH1I*)f.Get(name);
   hist->Draw();
   c->cd(7);
-  sprintf(name,"Tof_bcr_%d",bcr);
+  sprintf(name,"SimHit_Tof_bcr_%d",bcr);
   TH1I * hist = (TH1I*)f.Get(name);
   hist->Draw();
   c->cd(8);
+  sprintf(name,"SimHit_Tof_bcr_%d",bcr);
+  TH1I * hist = (TH1I*)f.Get(name);
+  hist->Draw();
  
 }
 }
