@@ -1,46 +1,103 @@
+// macro for reading back and putting in form the histograms created by TestSuite.cc
 {
 TFile f("histos.root");
-int bcr;
-for (bcr=-5;bcr<=3;bcr++)
+int bcr, bcrstart=-5,bcrend=3;
+
+char name[50] ;
+TH1I * hist;
+
+// SimTracks
+sprintf(name,"SimTracks",bcr);
+TCanvas *c = new TCanvas(name,name);
+gPad->Divide(3,3);
+for (bcr=bcrstart;bcr<=bcrend;bcr++)
 {
-  char name[20] ;
-  sprintf(name,"Canvas_Bcr_%d",bcr);
-  TCanvas *c = new TCanvas(name,name);
-  gPad->Divide(3,3);
-  // SimTracks
-  gPad->cd(1);
+  c->cd(bcr-bcrstart+1);
   sprintf(name,"Tracks_bcr_%d",bcr);
-  TH1I * hist = (TH1I*)f.Get(name);
+  hist = (TH1I*)f.Get(name);
   hist->Draw();
-  c->cd(2);
-  sprintf(name,"VtxPointers_signal_%d",bcr);
-  TH1I * hist = (TH1I*)f.Get(name);
-  hist->Draw();
-  c->cd(3);
+  sprintf(name,"SignalTracks_bcr_%d",bcr);
+  hist = (TH1I*)f.Get(name);
+  hist->SetLineColor(kRed);
+  hist->Draw("SAME");
+}
+sprintf(name,"SimTracksVtxPtrs",bcr);
+TCanvas *c = new TCanvas(name,name);
+gPad->Divide(3,3);
+for (bcr=bcrstart;bcr<=bcrend;bcr++)
+{
+  c->cd(bcr-bcrstart+1);
   sprintf(name,"VtxPointers_%d",bcr);
-  TH1I * hist = (TH1I*)f.Get(name);
+  hist = (TH1I*)f.Get(name);
   hist->Draw();
-  // SimVertices
-  c->cd(4);
+  sprintf(name,"VtxPointers_signal_%d",bcr);
+  hist = (TH1I*)f.Get(name);
+  hist->SetLineColor(kRed);
+  hist->Draw("SAME");
+}
+c->SaveAs("SimTracksVtxPtrs.gif");
+
+//SimVertices
+sprintf(name,"SimVertices",bcr);
+TCanvas *c = new TCanvas(name,name);
+gPad->Divide(3,3);
+for (bcr=bcrstart;bcr<=bcrend;bcr++)
+{
+  c->cd(bcr-bcrstart+1);
   sprintf(name,"Vertices_bcr_%d",bcr);
-  TH1I * hist = (TH1I*)f.Get(name);
+  hist = (TH1I*)f.Get(name);
   hist->Draw();
-  c->cd(5);
-  sprintf(name,"TrackPointers_signal_%d",bcr);
-  TH1I * hist = (TH1I*)f.Get(name);
+  sprintf(name,"SignalVertices_bcr_%d",bcr);
+  hist = (TH1I*)f.Get(name);
+  hist->SetLineColor(kRed);
+  hist->Draw("SAME");
+}
+
+// Tracker
+sprintf(name,"Tracker",bcr);
+TCanvas *c = new TCanvas(name,name);
+gPad->Divide(3,3);
+for (bcr=bcrstart;bcr<=bcrend;bcr++)
+{
+  c->cd(bcr-bcrstart+1);
+  sprintf(name,"TrackerHit_Tof_bcr_%d",bcr);
+  hist = (TH1I*)f.Get(name);
   hist->Draw();
-  c->cd(6);
-  sprintf(name,"TrackPointers_%d",bcr);
-  TH1I * hist = (TH1I*)f.Get(name);
+  sprintf(name,"SignalTrackerHit_Tof_bcr_%d",bcr);
+  hist = (TH1I*)f.Get(name);
+  hist->SetLineColor(kRed);
+  hist->Draw("SAME");
+}
+
+//Ecal
+sprintf(name,"ECal",bcr);
+TCanvas *c = new TCanvas(name,name);
+gPad->Divide(3,3);
+for (bcr=bcrstart;bcr<=bcrend;bcr++)
+{
+  c->cd(bcr-bcrstart+1);
+  sprintf(name,"EcalEBHit_Tof_bcr_%d",bcr);
+  hist = (TH1I*)f.Get(name);
   hist->Draw();
-  c->cd(7);
-  sprintf(name,"SimHit_Tof_bcr_%d",bcr);
-  TH1I * hist = (TH1I*)f.Get(name);
+  sprintf(name,"SignalEcalEBHit_Tof_bcr_%d",bcr);
+  hist = (TH1I*)f.Get(name);
+  hist->SetLineColor(kRed);
+  hist->Draw("SAME");
+}
+
+//Hcal
+sprintf(name,"HCal",bcr);
+TCanvas *c = new TCanvas(name,name);
+gPad->Divide(3,3);
+for (bcr=bcrstart;bcr<=bcrend;bcr++)
+{
+  c->cd(bcr-bcrstart+1);
+  sprintf(name,"HcalHit_Tof_bcr_%d",bcr);
+  hist = (TH1I*)f.Get(name);
   hist->Draw();
-  c->cd(8);
-  sprintf(name,"SimHit_Tof_bcr_%d",bcr);
-  TH1I * hist = (TH1I*)f.Get(name);
-  hist->Draw();
- 
+  sprintf(name,"SignalHcalHit_Tof_bcr_%d",bcr);
+  hist = (TH1I*)f.Get(name);
+  hist->SetLineColor(kRed);
+  hist->Draw("SAME");
 }
 }
