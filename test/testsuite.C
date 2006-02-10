@@ -35,7 +35,6 @@ for (bcr=bcrstart;bcr<=bcrend;bcr++)
   hist->SetLineColor(kRed);
   hist->Draw("SAME");
 }
-c->SaveAs("SimTracksVtxPtrs.gif");
 
 //SimVertices
 sprintf(name,"SimVertices",bcr);

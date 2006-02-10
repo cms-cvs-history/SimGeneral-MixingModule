@@ -29,9 +29,11 @@ How to execute the validation test:
 The validation test verifies that bunchcrossings are correctly filled by the 
 MM, and that values like the vertex pointers and ToF etc are 
 correctly shifted. For that it executes the MM for each bunchcrossing, 
-restricting the bunchrange to this crossing only.Rereading the output of the 
+restricting the bunchrange to this crossing only, and adding exactly 1 event as a pileup, 
+which is the same as the signal event.
+   Rereading the output of the 
 MM with TestSuite, it produces a root-file 
-containing histogram("histos.root"), which can be looked at interactively 
+containing histograms ("histos.root"), which can be looked at interactively 
 with the root macro testsuite.C.
 
 To execute the testsuite:
