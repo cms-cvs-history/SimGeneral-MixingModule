@@ -1,7 +1,7 @@
 
 [oval run] =================================================
 [oval run] USER : uberthon
-[oval run] HOST : lxplus019.cern.ch
+[oval run] HOST : lxplus014.cern.ch
 [oval run] run tool: scramv1
 [oval run] final instruction: testsuite.sh
 [oval run] =================================================
@@ -9,932 +9,608 @@
 ===================> preparing for -5
 executing MixingModule -5....
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:08:42 CET pre-events
-%MSG-w FwkJob: LFN:  data/simevent.root  not found  06-Mar-2006 12:08:44 CET 
+       14-Mar-2006 10:54:44 CET pre-events
+%MSG-w FwkJob: LFN:  data/simevent.root  not found  14-Mar-2006 10:54:45 CET 
        pre-events
 %MSG-w FwkJob: PFN defaulted:  file:data/simevent.root  
-       06-Mar-2006 12:08:44 CET pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:08:44 CET 
+       14-Mar-2006 10:54:45 CET pre-events
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:54:45 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:data/simevent.root  06-Mar-2006 12:08:44 CET 
+%MSG-i FwkJob: PFN:  file:data/simevent.root  14-Mar-2006 10:54:45 CET 
        pre-events
 file:data/simevent.root   Always Root file version:50800
 file:data/simevent.root   Always Root file version:50800
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:08:47 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:54:48 CET 
        pre-events
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:08:47 CET pre-events
-%MSG-w FwkJob: LFN:  data/simevent.root  not found  06-Mar-2006 12:08:47 CET 
+       14-Mar-2006 10:54:48 CET pre-events
+%MSG-w FwkJob: LFN:  data/simevent.root  not found  14-Mar-2006 10:54:48 CET 
        pre-events
 %MSG-w FwkJob: PFN defaulted:  file:data/simevent.root  
-       06-Mar-2006 12:08:47 CET pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:08:47 CET 
+       14-Mar-2006 10:54:48 CET pre-events
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:54:48 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:data/simevent.root  06-Mar-2006 12:08:47 CET 
+%MSG-i FwkJob: PFN:  file:data/simevent.root  14-Mar-2006 10:54:48 CET 
        pre-events
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:08:47 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:54:48 CET 
        pre-events
 %MSG-i FwkJob: WRITE_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:08:47 CET pre-events
-%MSG-i FwkJob: Output file is about to be opened.  06-Mar-2006 12:08:47 CET 
+       14-Mar-2006 10:54:48 CET pre-events
+%MSG-i FwkJob: Output file is about to be opened.  14-Mar-2006 10:54:49 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:Cum_-5.root  06-Mar-2006 12:08:47 CET pre-events
+%MSG-i FwkJob: PFN:  file:Cum_-5.root  14-Mar-2006 10:54:49 CET pre-events
 file:Cum_-5.root   Always Root file version:50800
-%MSG-i FwkJob: Output file opened successfully.  06-Mar-2006 12:08:47 CET 
+%MSG-i FwkJob: Output file opened successfully.  14-Mar-2006 10:54:49 CET 
        pre-events
 %MSG-i PileUp: Adding pileup for event  run: 1 event: 1  MixingModule:mix 
-       06-Mar-2006 12:08:47 CET 1/1
+       14-Mar-2006 10:54:49 CET 1/1
 creating histos -5 ...
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:08:52 CET pre-events
-%MSG-w FwkJob: LFN:  Cum_-5.root  not found  06-Mar-2006 12:08:54 CET pre-events
-%MSG-w FwkJob: PFN defaulted:  file:Cum_-5.root  06-Mar-2006 12:08:54 CET 
+       14-Mar-2006 10:54:55 CET pre-events
+%MSG-w FwkJob: LFN:  Cum_-5.root  not found  14-Mar-2006 10:54:56 CET pre-events
+%MSG-w FwkJob: PFN defaulted:  file:Cum_-5.root  14-Mar-2006 10:54:56 CET 
        pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:08:54 CET 
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:54:56 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:Cum_-5.root  06-Mar-2006 12:08:54 CET pre-events
+%MSG-i FwkJob: PFN:  file:Cum_-5.root  14-Mar-2006 10:54:56 CET pre-events
 file:Cum_-5.root   Always Root file version:50800
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:08:57 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:54:59 CET 
        pre-events
 Constructed testSuite , bunchcr -5 filename: histos.root
-[OVAL] Sigma of track pileup histo (bcrossings) 0
-[OVAL] Sigma of track signal histo (bcrossings) 0
-[OVAL] Sigma of track pileup histo (vtx indices) 29.1548
-[OVAL] Sigma of track signal histo (vtx indices) 29.1548
-[OVAL] Sigma of vertex pileup histo (bcrossings) 0
-[OVAL] Sigma of vertex signal histo (bcrossings) 0
-[OVAL] Sigma of vertex pileup histo (vtx indices) 0
-[OVAL] Sigma of vertex signal histo (vtx indices) 0
- No signal for subdetector TrackerHitsTECLowTof
-[OVAL] Sigma of tracker pileup histo (ToF) 0
-[OVAL] Sigma of tracker signal histo (ToF) 0
+[OVAL] Mean of track pileup histo (bcrossings) 0
+[OVAL] Mean of track signal histo (bcrossings) -5
+[OVAL] Mean of track pileup histo (vtx indices) 50
+[OVAL] Mean of track signal histo (vtx indices) 50
+[OVAL] Mean of vertex pileup histo (bcrossings) 0
+[OVAL] Mean of vertex signal histo (bcrossings) -5
+[OVAL] Mean of vertex pileup histo (track indices) 41
+[OVAL] Mean of vertex signal histo (track indices) 41
+[OVAL] Mean of tracker pileup histo (ToF) 29.1149
+[OVAL] Mean of tracker signal histo (ToF) 0
  No signal for subdetector EcalHitsEB
-[OVAL] Sigma of Ecal pileup histo (ToF) 0
-[OVAL] Sigma of eEal signal histo (ToF) 0
-[OVAL] Sigma of Hcal pileup histo (ToF) 2.64504
-[OVAL] Sigma of Hcal signal histo (ToF) 2.64504
+[OVAL] Mean of Ecal pileup histo (ToF) 0
+[OVAL] Mean of Ecal signal histo (ToF) 0
+[OVAL] Mean of Hcal pileup histo (ToF) 37.5155
+[OVAL] Mean of Hcal signal histo (ToF) -87.4845
 
 ===================> preparing for -4
 executing MixingModule -4....
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:09:03 CET pre-events
-%MSG-w FwkJob: LFN:  data/simevent.root  not found  06-Mar-2006 12:09:04 CET 
+       14-Mar-2006 10:55:05 CET pre-events
+%MSG-w FwkJob: LFN:  data/simevent.root  not found  14-Mar-2006 10:55:06 CET 
        pre-events
 %MSG-w FwkJob: PFN defaulted:  file:data/simevent.root  
-       06-Mar-2006 12:09:04 CET pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:09:04 CET 
+       14-Mar-2006 10:55:06 CET pre-events
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:55:06 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:data/simevent.root  06-Mar-2006 12:09:04 CET 
+%MSG-i FwkJob: PFN:  file:data/simevent.root  14-Mar-2006 10:55:06 CET 
        pre-events
 file:data/simevent.root   Always Root file version:50800
 file:data/simevent.root   Always Root file version:50800
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:09:07 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:55:09 CET 
        pre-events
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:09:08 CET pre-events
-%MSG-w FwkJob: LFN:  data/simevent.root  not found  06-Mar-2006 12:09:08 CET 
+       14-Mar-2006 10:55:11 CET pre-events
+%MSG-w FwkJob: LFN:  data/simevent.root  not found  14-Mar-2006 10:55:11 CET 
        pre-events
 %MSG-w FwkJob: PFN defaulted:  file:data/simevent.root  
-       06-Mar-2006 12:09:08 CET pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:09:08 CET 
+       14-Mar-2006 10:55:11 CET pre-events
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:55:11 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:data/simevent.root  06-Mar-2006 12:09:08 CET 
+%MSG-i FwkJob: PFN:  file:data/simevent.root  14-Mar-2006 10:55:11 CET 
        pre-events
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:09:08 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:55:11 CET 
        pre-events
 %MSG-i FwkJob: WRITE_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:09:08 CET pre-events
-%MSG-i FwkJob: Output file is about to be opened.  06-Mar-2006 12:09:08 CET 
+       14-Mar-2006 10:55:11 CET pre-events
+%MSG-i FwkJob: Output file is about to be opened.  14-Mar-2006 10:55:11 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:Cum_-4.root  06-Mar-2006 12:09:08 CET pre-events
+%MSG-i FwkJob: PFN:  file:Cum_-4.root  14-Mar-2006 10:55:11 CET pre-events
 file:Cum_-4.root   Always Root file version:50800
-%MSG-i FwkJob: Output file opened successfully.  06-Mar-2006 12:09:09 CET 
+%MSG-i FwkJob: Output file opened successfully.  14-Mar-2006 10:55:11 CET 
        pre-events
 %MSG-i PileUp: Adding pileup for event  run: 1 event: 1  MixingModule:mix 
-       06-Mar-2006 12:09:09 CET 1/1
+       14-Mar-2006 10:55:11 CET 1/1
 creating histos -4 ...
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:09:14 CET pre-events
-%MSG-w FwkJob: LFN:  Cum_-4.root  not found  06-Mar-2006 12:09:15 CET pre-events
-%MSG-w FwkJob: PFN defaulted:  file:Cum_-4.root  06-Mar-2006 12:09:15 CET 
+       14-Mar-2006 10:55:17 CET pre-events
+%MSG-w FwkJob: LFN:  Cum_-4.root  not found  14-Mar-2006 10:55:18 CET pre-events
+%MSG-w FwkJob: PFN defaulted:  file:Cum_-4.root  14-Mar-2006 10:55:18 CET 
        pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:09:15 CET 
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:55:18 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:Cum_-4.root  06-Mar-2006 12:09:15 CET pre-events
+%MSG-i FwkJob: PFN:  file:Cum_-4.root  14-Mar-2006 10:55:18 CET pre-events
 file:Cum_-4.root   Always Root file version:50800
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:09:18 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:55:21 CET 
        pre-events
 Constructed testSuite , bunchcr -4 filename: histos.root
-[OVAL] Sigma of track pileup histo (bcrossings) 0
-[OVAL] Sigma of track signal histo (bcrossings) 0
-[OVAL] Sigma of track pileup histo (vtx indices) 29.1548
-[OVAL] Sigma of track signal histo (vtx indices) 29.1548
-[OVAL] Sigma of vertex pileup histo (bcrossings) 0
-[OVAL] Sigma of vertex signal histo (bcrossings) 0
-[OVAL] Sigma of vertex pileup histo (vtx indices) 0
-[OVAL] Sigma of vertex signal histo (vtx indices) 0
- No signal for subdetector TrackerHitsTECLowTof
-[OVAL] Sigma of tracker pileup histo (ToF) 0
-[OVAL] Sigma of tracker signal histo (ToF) 0
+[OVAL] Mean of track pileup histo (bcrossings) 0
+[OVAL] Mean of track signal histo (bcrossings) -4
+[OVAL] Mean of track pileup histo (vtx indices) 50
+[OVAL] Mean of track signal histo (vtx indices) 50
+[OVAL] Mean of vertex pileup histo (bcrossings) 0
+[OVAL] Mean of vertex signal histo (bcrossings) -4
+[OVAL] Mean of vertex pileup histo (track indices) 41
+[OVAL] Mean of vertex signal histo (track indices) 41
+[OVAL] Mean of tracker pileup histo (ToF) 29.1149
+[OVAL] Mean of tracker signal histo (ToF) 0
  No signal for subdetector EcalHitsEB
-[OVAL] Sigma of Ecal pileup histo (ToF) 0
-[OVAL] Sigma of eEal signal histo (ToF) 0
-[OVAL] Sigma of Hcal pileup histo (ToF) 2.64504
-[OVAL] Sigma of Hcal signal histo (ToF) 2.64504
+[OVAL] Mean of Ecal pileup histo (ToF) 0
+[OVAL] Mean of Ecal signal histo (ToF) 0
+[OVAL] Mean of Hcal pileup histo (ToF) 37.5155
+[OVAL] Mean of Hcal signal histo (ToF) -62.4845
 
 ===================> preparing for -3
 executing MixingModule -3....
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:09:24 CET pre-events
-%MSG-w FwkJob: LFN:  data/simevent.root  not found  06-Mar-2006 12:09:26 CET 
+       14-Mar-2006 10:55:27 CET pre-events
+%MSG-w FwkJob: LFN:  data/simevent.root  not found  14-Mar-2006 10:55:29 CET 
        pre-events
 %MSG-w FwkJob: PFN defaulted:  file:data/simevent.root  
-       06-Mar-2006 12:09:26 CET pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:09:26 CET 
+       14-Mar-2006 10:55:29 CET pre-events
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:55:29 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:data/simevent.root  06-Mar-2006 12:09:26 CET 
+%MSG-i FwkJob: PFN:  file:data/simevent.root  14-Mar-2006 10:55:29 CET 
        pre-events
 file:data/simevent.root   Always Root file version:50800
 file:data/simevent.root   Always Root file version:50800
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:09:29 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:55:32 CET 
        pre-events
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:09:30 CET pre-events
-%MSG-w FwkJob: LFN:  data/simevent.root  not found  06-Mar-2006 12:09:30 CET 
+       14-Mar-2006 10:55:33 CET pre-events
+%MSG-w FwkJob: LFN:  data/simevent.root  not found  14-Mar-2006 10:55:33 CET 
        pre-events
 %MSG-w FwkJob: PFN defaulted:  file:data/simevent.root  
-       06-Mar-2006 12:09:30 CET pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:09:30 CET 
+       14-Mar-2006 10:55:33 CET pre-events
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:55:33 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:data/simevent.root  06-Mar-2006 12:09:30 CET 
+%MSG-i FwkJob: PFN:  file:data/simevent.root  14-Mar-2006 10:55:33 CET 
        pre-events
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:09:30 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:55:33 CET 
        pre-events
 %MSG-i FwkJob: WRITE_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:09:30 CET pre-events
-%MSG-i FwkJob: Output file is about to be opened.  06-Mar-2006 12:09:30 CET 
+       14-Mar-2006 10:55:33 CET pre-events
+%MSG-i FwkJob: Output file is about to be opened.  14-Mar-2006 10:55:33 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:Cum_-3.root  06-Mar-2006 12:09:30 CET pre-events
+%MSG-i FwkJob: PFN:  file:Cum_-3.root  14-Mar-2006 10:55:33 CET pre-events
 file:Cum_-3.root   Always Root file version:50800
-%MSG-i FwkJob: Output file opened successfully.  06-Mar-2006 12:09:31 CET 
+%MSG-i FwkJob: Output file opened successfully.  14-Mar-2006 10:55:33 CET 
        pre-events
 %MSG-i PileUp: Adding pileup for event  run: 1 event: 1  MixingModule:mix 
-       06-Mar-2006 12:09:31 CET 1/1
+       14-Mar-2006 10:55:34 CET 1/1
 creating histos -3 ...
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:09:37 CET pre-events
-%MSG-w FwkJob: LFN:  Cum_-3.root  not found  06-Mar-2006 12:09:38 CET pre-events
-%MSG-w FwkJob: PFN defaulted:  file:Cum_-3.root  06-Mar-2006 12:09:38 CET 
+       14-Mar-2006 10:55:39 CET pre-events
+%MSG-w FwkJob: LFN:  Cum_-3.root  not found  14-Mar-2006 10:55:41 CET pre-events
+%MSG-w FwkJob: PFN defaulted:  file:Cum_-3.root  14-Mar-2006 10:55:41 CET 
        pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:09:38 CET 
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:55:41 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:Cum_-3.root  06-Mar-2006 12:09:38 CET pre-events
+%MSG-i FwkJob: PFN:  file:Cum_-3.root  14-Mar-2006 10:55:41 CET pre-events
 file:Cum_-3.root   Always Root file version:50800
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:09:41 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:55:44 CET 
        pre-events
 Constructed testSuite , bunchcr -3 filename: histos.root
-[OVAL] Sigma of track pileup histo (bcrossings) 0
-[OVAL] Sigma of track signal histo (bcrossings) 0
-[OVAL] Sigma of track pileup histo (vtx indices) 29.1548
-[OVAL] Sigma of track signal histo (vtx indices) 29.1548
-[OVAL] Sigma of vertex pileup histo (bcrossings) 0
-[OVAL] Sigma of vertex signal histo (bcrossings) 0
-[OVAL] Sigma of vertex pileup histo (vtx indices) 0
-[OVAL] Sigma of vertex signal histo (vtx indices) 0
- No signal for subdetector TrackerHitsTECLowTof
-[OVAL] Sigma of tracker pileup histo (ToF) 0
-[OVAL] Sigma of tracker signal histo (ToF) 0
+[OVAL] Mean of track pileup histo (bcrossings) 0
+[OVAL] Mean of track signal histo (bcrossings) -3
+[OVAL] Mean of track pileup histo (vtx indices) 50
+[OVAL] Mean of track signal histo (vtx indices) 50
+[OVAL] Mean of vertex pileup histo (bcrossings) 0
+[OVAL] Mean of vertex signal histo (bcrossings) -3
+[OVAL] Mean of vertex pileup histo (track indices) 41
+[OVAL] Mean of vertex signal histo (track indices) 41
+[OVAL] Mean of tracker pileup histo (ToF) 29.1149
+[OVAL] Mean of tracker signal histo (ToF) 0
  No signal for subdetector EcalHitsEB
-[OVAL] Sigma of Ecal pileup histo (ToF) 0
-[OVAL] Sigma of eEal signal histo (ToF) 0
-[OVAL] Sigma of Hcal pileup histo (ToF) 2.64504
-[OVAL] Sigma of Hcal signal histo (ToF) 2.64504
+[OVAL] Mean of Ecal pileup histo (ToF) 0
+[OVAL] Mean of Ecal signal histo (ToF) 0
+[OVAL] Mean of Hcal pileup histo (ToF) 37.5155
+[OVAL] Mean of Hcal signal histo (ToF) -37.4845
 
 ===================> preparing for -2
 executing MixingModule -2....
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:09:47 CET pre-events
-%MSG-w FwkJob: LFN:  data/simevent.root  not found  06-Mar-2006 12:09:49 CET 
+       14-Mar-2006 10:55:50 CET pre-events
+%MSG-w FwkJob: LFN:  data/simevent.root  not found  14-Mar-2006 10:55:51 CET 
        pre-events
 %MSG-w FwkJob: PFN defaulted:  file:data/simevent.root  
-       06-Mar-2006 12:09:49 CET pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:09:49 CET 
+       14-Mar-2006 10:55:51 CET pre-events
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:55:51 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:data/simevent.root  06-Mar-2006 12:09:49 CET 
+%MSG-i FwkJob: PFN:  file:data/simevent.root  14-Mar-2006 10:55:51 CET 
        pre-events
 file:data/simevent.root   Always Root file version:50800
 file:data/simevent.root   Always Root file version:50800
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:09:52 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:55:54 CET 
        pre-events
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:09:53 CET pre-events
-%MSG-w FwkJob: LFN:  data/simevent.root  not found  06-Mar-2006 12:09:53 CET 
+       14-Mar-2006 10:55:56 CET pre-events
+%MSG-w FwkJob: LFN:  data/simevent.root  not found  14-Mar-2006 10:55:56 CET 
        pre-events
 %MSG-w FwkJob: PFN defaulted:  file:data/simevent.root  
-       06-Mar-2006 12:09:53 CET pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:09:53 CET 
+       14-Mar-2006 10:55:56 CET pre-events
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:55:56 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:data/simevent.root  06-Mar-2006 12:09:53 CET 
+%MSG-i FwkJob: PFN:  file:data/simevent.root  14-Mar-2006 10:55:56 CET 
        pre-events
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:09:53 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:55:56 CET 
        pre-events
 %MSG-i FwkJob: WRITE_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:09:53 CET pre-events
-%MSG-i FwkJob: Output file is about to be opened.  06-Mar-2006 12:09:53 CET 
+       14-Mar-2006 10:55:56 CET pre-events
+%MSG-i FwkJob: Output file is about to be opened.  14-Mar-2006 10:55:56 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:Cum_-2.root  06-Mar-2006 12:09:53 CET pre-events
+%MSG-i FwkJob: PFN:  file:Cum_-2.root  14-Mar-2006 10:55:56 CET pre-events
 file:Cum_-2.root   Always Root file version:50800
-%MSG-i FwkJob: Output file opened successfully.  06-Mar-2006 12:09:54 CET 
+%MSG-i FwkJob: Output file opened successfully.  14-Mar-2006 10:55:56 CET 
        pre-events
 %MSG-i PileUp: Adding pileup for event  run: 1 event: 1  MixingModule:mix 
-       06-Mar-2006 12:09:54 CET 1/1
+       14-Mar-2006 10:55:56 CET 1/1
 creating histos -2 ...
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:09:59 CET pre-events
-%MSG-w FwkJob: LFN:  Cum_-2.root  not found  06-Mar-2006 12:10:01 CET pre-events
-%MSG-w FwkJob: PFN defaulted:  file:Cum_-2.root  06-Mar-2006 12:10:01 CET 
+       14-Mar-2006 10:56:02 CET pre-events
+%MSG-w FwkJob: LFN:  Cum_-2.root  not found  14-Mar-2006 10:56:03 CET pre-events
+%MSG-w FwkJob: PFN defaulted:  file:Cum_-2.root  14-Mar-2006 10:56:03 CET 
        pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:10:01 CET 
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:56:03 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:Cum_-2.root  06-Mar-2006 12:10:01 CET pre-events
+%MSG-i FwkJob: PFN:  file:Cum_-2.root  14-Mar-2006 10:56:03 CET pre-events
 file:Cum_-2.root   Always Root file version:50800
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:10:04 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:56:06 CET 
        pre-events
 Constructed testSuite , bunchcr -2 filename: histos.root
-[OVAL] Sigma of track pileup histo (bcrossings) 0
-[OVAL] Sigma of track signal histo (bcrossings) 0
-[OVAL] Sigma of track pileup histo (vtx indices) 29.1548
-[OVAL] Sigma of track signal histo (vtx indices) 29.1548
-[OVAL] Sigma of vertex pileup histo (bcrossings) 0
-[OVAL] Sigma of vertex signal histo (bcrossings) 0
-[OVAL] Sigma of vertex pileup histo (vtx indices) 0
-[OVAL] Sigma of vertex signal histo (vtx indices) 0
- No signal for subdetector TrackerHitsTECLowTof
-[OVAL] Sigma of tracker pileup histo (ToF) 0
-[OVAL] Sigma of tracker signal histo (ToF) 0
+[OVAL] Mean of track pileup histo (bcrossings) 0
+[OVAL] Mean of track signal histo (bcrossings) -2
+[OVAL] Mean of track pileup histo (vtx indices) 50
+[OVAL] Mean of track signal histo (vtx indices) 50
+[OVAL] Mean of vertex pileup histo (bcrossings) 0
+[OVAL] Mean of vertex signal histo (bcrossings) -2
+[OVAL] Mean of vertex pileup histo (track indices) 41
+[OVAL] Mean of vertex signal histo (track indices) 41
+[OVAL] Mean of tracker pileup histo (ToF) 29.1149
+[OVAL] Mean of tracker signal histo (ToF) -20.8851
  No signal for subdetector EcalHitsEB
-[OVAL] Sigma of Ecal pileup histo (ToF) 0
-[OVAL] Sigma of eEal signal histo (ToF) 0
-[OVAL] Sigma of Hcal pileup histo (ToF) 2.64504
-[OVAL] Sigma of Hcal signal histo (ToF) 2.64504
+[OVAL] Mean of Ecal pileup histo (ToF) 0
+[OVAL] Mean of Ecal signal histo (ToF) 0
+[OVAL] Mean of Hcal pileup histo (ToF) 37.5155
+[OVAL] Mean of Hcal signal histo (ToF) -12.4845
 
 ===================> preparing for -1
 executing MixingModule -1....
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:10:10 CET pre-events
-%MSG-w FwkJob: LFN:  data/simevent.root  not found  06-Mar-2006 12:10:11 CET 
+       14-Mar-2006 10:56:12 CET pre-events
+%MSG-w FwkJob: LFN:  data/simevent.root  not found  14-Mar-2006 10:56:13 CET 
        pre-events
 %MSG-w FwkJob: PFN defaulted:  file:data/simevent.root  
-       06-Mar-2006 12:10:11 CET pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:10:11 CET 
+       14-Mar-2006 10:56:13 CET pre-events
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:56:13 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:data/simevent.root  06-Mar-2006 12:10:11 CET 
+%MSG-i FwkJob: PFN:  file:data/simevent.root  14-Mar-2006 10:56:13 CET 
        pre-events
 file:data/simevent.root   Always Root file version:50800
 file:data/simevent.root   Always Root file version:50800
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:10:14 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:56:16 CET 
        pre-events
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:10:16 CET pre-events
-%MSG-w FwkJob: LFN:  data/simevent.root  not found  06-Mar-2006 12:10:16 CET 
+       14-Mar-2006 10:56:18 CET pre-events
+%MSG-w FwkJob: LFN:  data/simevent.root  not found  14-Mar-2006 10:56:18 CET 
        pre-events
 %MSG-w FwkJob: PFN defaulted:  file:data/simevent.root  
-       06-Mar-2006 12:10:16 CET pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:10:16 CET 
+       14-Mar-2006 10:56:18 CET pre-events
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:56:18 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:data/simevent.root  06-Mar-2006 12:10:16 CET 
+%MSG-i FwkJob: PFN:  file:data/simevent.root  14-Mar-2006 10:56:18 CET 
        pre-events
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:10:16 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:56:18 CET 
        pre-events
 %MSG-i FwkJob: WRITE_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:10:16 CET pre-events
-%MSG-i FwkJob: Output file is about to be opened.  06-Mar-2006 12:10:16 CET 
+       14-Mar-2006 10:56:18 CET pre-events
+%MSG-i FwkJob: Output file is about to be opened.  14-Mar-2006 10:56:18 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:Cum_-1.root  06-Mar-2006 12:10:16 CET pre-events
+%MSG-i FwkJob: PFN:  file:Cum_-1.root  14-Mar-2006 10:56:18 CET pre-events
 file:Cum_-1.root   Always Root file version:50800
-%MSG-i FwkJob: Output file opened successfully.  06-Mar-2006 12:10:16 CET 
+%MSG-i FwkJob: Output file opened successfully.  14-Mar-2006 10:56:18 CET 
        pre-events
 %MSG-i PileUp: Adding pileup for event  run: 1 event: 1  MixingModule:mix 
-       06-Mar-2006 12:10:16 CET 1/1
+       14-Mar-2006 10:56:18 CET 1/1
 creating histos -1 ...
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:10:22 CET pre-events
-%MSG-w FwkJob: LFN:  Cum_-1.root  not found  06-Mar-2006 12:10:23 CET pre-events
-%MSG-w FwkJob: PFN defaulted:  file:Cum_-1.root  06-Mar-2006 12:10:23 CET 
+       14-Mar-2006 10:56:24 CET pre-events
+%MSG-w FwkJob: LFN:  Cum_-1.root  not found  14-Mar-2006 10:56:25 CET pre-events
+%MSG-w FwkJob: PFN defaulted:  file:Cum_-1.root  14-Mar-2006 10:56:25 CET 
        pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:10:23 CET 
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:56:25 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:Cum_-1.root  06-Mar-2006 12:10:23 CET pre-events
+%MSG-i FwkJob: PFN:  file:Cum_-1.root  14-Mar-2006 10:56:25 CET pre-events
 file:Cum_-1.root   Always Root file version:50800
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:10:27 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:56:28 CET 
        pre-events
 Constructed testSuite , bunchcr -1 filename: histos.root
-[OVAL] Sigma of track pileup histo (bcrossings) 0
-[OVAL] Sigma of track signal histo (bcrossings) 0
-[OVAL] Sigma of track pileup histo (vtx indices) 29.1548
-[OVAL] Sigma of track signal histo (vtx indices) 29.1548
-[OVAL] Sigma of vertex pileup histo (bcrossings) 0
-[OVAL] Sigma of vertex signal histo (bcrossings) 0
-[OVAL] Sigma of vertex pileup histo (vtx indices) 0
-[OVAL] Sigma of vertex signal histo (vtx indices) 0
- No signal for subdetector TrackerHitsTECLowTof
-[OVAL] Sigma of tracker pileup histo (ToF) 0
-[OVAL] Sigma of tracker signal histo (ToF) 0
+[OVAL] Mean of track pileup histo (bcrossings) 0
+[OVAL] Mean of track signal histo (bcrossings) -1
+[OVAL] Mean of track pileup histo (vtx indices) 50
+[OVAL] Mean of track signal histo (vtx indices) 50
+[OVAL] Mean of vertex pileup histo (bcrossings) 0
+[OVAL] Mean of vertex signal histo (bcrossings) -1
+[OVAL] Mean of vertex pileup histo (track indices) 41
+[OVAL] Mean of vertex signal histo (track indices) 41
+[OVAL] Mean of tracker pileup histo (ToF) 29.1149
+[OVAL] Mean of tracker signal histo (ToF) 4.11491
  No signal for subdetector EcalHitsEB
-[OVAL] Sigma of Ecal pileup histo (ToF) 0
-[OVAL] Sigma of eEal signal histo (ToF) 0
-[OVAL] Sigma of Hcal pileup histo (ToF) 2.64504
-[OVAL] Sigma of Hcal signal histo (ToF) 2.64504
+[OVAL] Mean of Ecal pileup histo (ToF) 0
+[OVAL] Mean of Ecal signal histo (ToF) 0
+[OVAL] Mean of Hcal pileup histo (ToF) 37.5155
+[OVAL] Mean of Hcal signal histo (ToF) 12.5155
 
 ===================> preparing for 0
 executing MixingModule 0....
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:10:33 CET pre-events
-%MSG-w FwkJob: LFN:  data/simevent.root  not found  06-Mar-2006 12:10:35 CET 
+       14-Mar-2006 10:56:35 CET pre-events
+%MSG-w FwkJob: LFN:  data/simevent.root  not found  14-Mar-2006 10:56:36 CET 
        pre-events
 %MSG-w FwkJob: PFN defaulted:  file:data/simevent.root  
-       06-Mar-2006 12:10:35 CET pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:10:35 CET 
+       14-Mar-2006 10:56:36 CET pre-events
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:56:36 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:data/simevent.root  06-Mar-2006 12:10:35 CET 
+%MSG-i FwkJob: PFN:  file:data/simevent.root  14-Mar-2006 10:56:36 CET 
        pre-events
 file:data/simevent.root   Always Root file version:50800
 file:data/simevent.root   Always Root file version:50800
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:10:38 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:56:39 CET 
        pre-events
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:10:39 CET pre-events
-%MSG-w FwkJob: LFN:  data/simevent.root  not found  06-Mar-2006 12:10:39 CET 
+       14-Mar-2006 10:56:40 CET pre-events
+%MSG-w FwkJob: LFN:  data/simevent.root  not found  14-Mar-2006 10:56:40 CET 
        pre-events
 %MSG-w FwkJob: PFN defaulted:  file:data/simevent.root  
-       06-Mar-2006 12:10:39 CET pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:10:39 CET 
+       14-Mar-2006 10:56:40 CET pre-events
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:56:40 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:data/simevent.root  06-Mar-2006 12:10:39 CET 
+%MSG-i FwkJob: PFN:  file:data/simevent.root  14-Mar-2006 10:56:40 CET 
        pre-events
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:10:39 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:56:40 CET 
        pre-events
 %MSG-i FwkJob: WRITE_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:10:39 CET pre-events
-%MSG-i FwkJob: Output file is about to be opened.  06-Mar-2006 12:10:39 CET 
+       14-Mar-2006 10:56:40 CET pre-events
+%MSG-i FwkJob: Output file is about to be opened.  14-Mar-2006 10:56:40 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:Cum_0.root  06-Mar-2006 12:10:39 CET pre-events
+%MSG-i FwkJob: PFN:  file:Cum_0.root  14-Mar-2006 10:56:40 CET pre-events
 file:Cum_0.root   Always Root file version:50800
-%MSG-i FwkJob: Output file opened successfully.  06-Mar-2006 12:10:39 CET 
+%MSG-i FwkJob: Output file opened successfully.  14-Mar-2006 10:56:40 CET 
        pre-events
 %MSG-i PileUp: Adding pileup for event  run: 1 event: 1  MixingModule:mix 
-       06-Mar-2006 12:10:39 CET 1/1
+       14-Mar-2006 10:56:41 CET 1/1
 creating histos 0 ...
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:10:45 CET pre-events
-%MSG-w FwkJob: LFN:  Cum_0.root  not found  06-Mar-2006 12:10:46 CET pre-events
-%MSG-w FwkJob: PFN defaulted:  file:Cum_0.root  06-Mar-2006 12:10:46 CET 
+       14-Mar-2006 10:56:46 CET pre-events
+%MSG-w FwkJob: LFN:  Cum_0.root  not found  14-Mar-2006 10:56:48 CET pre-events
+%MSG-w FwkJob: PFN defaulted:  file:Cum_0.root  14-Mar-2006 10:56:48 CET 
        pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:10:46 CET 
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:56:48 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:Cum_0.root  06-Mar-2006 12:10:46 CET pre-events
+%MSG-i FwkJob: PFN:  file:Cum_0.root  14-Mar-2006 10:56:48 CET pre-events
 file:Cum_0.root   Always Root file version:50800
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:10:49 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:56:51 CET 
        pre-events
 Constructed testSuite , bunchcr 0 filename: histos.root
-[OVAL] Sigma of track pileup histo (bcrossings) 0
-[OVAL] Sigma of track signal histo (bcrossings) 0
-[OVAL] Sigma of track pileup histo (vtx indices) 29.1548
-[OVAL] Sigma of track signal histo (vtx indices) 29.1548
-[OVAL] Sigma of vertex pileup histo (bcrossings) 0
-[OVAL] Sigma of vertex signal histo (bcrossings) 0
-[OVAL] Sigma of vertex pileup histo (vtx indices) 0
-[OVAL] Sigma of vertex signal histo (vtx indices) 0
- No signal for subdetector TrackerHitsTECLowTof
-[OVAL] Sigma of tracker pileup histo (ToF) 0
-[OVAL] Sigma of tracker signal histo (ToF) 0
+[OVAL] Mean of track pileup histo (bcrossings) 0
+[OVAL] Mean of track signal histo (bcrossings) 0
+[OVAL] Mean of track pileup histo (vtx indices) 50
+[OVAL] Mean of track signal histo (vtx indices) 50
+[OVAL] Mean of vertex pileup histo (bcrossings) 0
+[OVAL] Mean of vertex signal histo (bcrossings) 0
+[OVAL] Mean of vertex pileup histo (track indices) 41
+[OVAL] Mean of vertex signal histo (track indices) 41
+[OVAL] Mean of tracker pileup histo (ToF) 29.1149
+[OVAL] Mean of tracker signal histo (ToF) 29.1149
  No signal for subdetector EcalHitsEB
-[OVAL] Sigma of Ecal pileup histo (ToF) 0
-[OVAL] Sigma of eEal signal histo (ToF) 0
-[OVAL] Sigma of Hcal pileup histo (ToF) 2.64504
-[OVAL] Sigma of Hcal signal histo (ToF) 2.64504
+[OVAL] Mean of Ecal pileup histo (ToF) 0
+[OVAL] Mean of Ecal signal histo (ToF) 0
+[OVAL] Mean of Hcal pileup histo (ToF) 37.5155
+[OVAL] Mean of Hcal signal histo (ToF) 37.5155
 
 ===================> preparing for 1
 executing MixingModule 1....
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:10:55 CET pre-events
-%MSG-w FwkJob: LFN:  data/simevent.root  not found  06-Mar-2006 12:10:57 CET 
+       14-Mar-2006 10:56:57 CET pre-events
+%MSG-w FwkJob: LFN:  data/simevent.root  not found  14-Mar-2006 10:56:58 CET 
        pre-events
 %MSG-w FwkJob: PFN defaulted:  file:data/simevent.root  
-       06-Mar-2006 12:10:57 CET pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:10:57 CET 
+       14-Mar-2006 10:56:58 CET pre-events
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:56:58 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:data/simevent.root  06-Mar-2006 12:10:57 CET 
+%MSG-i FwkJob: PFN:  file:data/simevent.root  14-Mar-2006 10:56:58 CET 
        pre-events
 file:data/simevent.root   Always Root file version:50800
 file:data/simevent.root   Always Root file version:50800
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:11:01 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:57:02 CET 
        pre-events
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:11:02 CET pre-events
-%MSG-w FwkJob: LFN:  data/simevent.root  not found  06-Mar-2006 12:11:02 CET 
+       14-Mar-2006 10:57:03 CET pre-events
+%MSG-w FwkJob: LFN:  data/simevent.root  not found  14-Mar-2006 10:57:03 CET 
        pre-events
 %MSG-w FwkJob: PFN defaulted:  file:data/simevent.root  
-       06-Mar-2006 12:11:02 CET pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:11:02 CET 
+       14-Mar-2006 10:57:03 CET pre-events
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:57:03 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:data/simevent.root  06-Mar-2006 12:11:02 CET 
+%MSG-i FwkJob: PFN:  file:data/simevent.root  14-Mar-2006 10:57:03 CET 
        pre-events
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:11:02 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:57:03 CET 
        pre-events
 %MSG-i FwkJob: WRITE_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:11:02 CET pre-events
-%MSG-i FwkJob: Output file is about to be opened.  06-Mar-2006 12:11:02 CET 
+       14-Mar-2006 10:57:03 CET pre-events
+%MSG-i FwkJob: Output file is about to be opened.  14-Mar-2006 10:57:03 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:Cum_1.root  06-Mar-2006 12:11:02 CET pre-events
+%MSG-i FwkJob: PFN:  file:Cum_1.root  14-Mar-2006 10:57:03 CET pre-events
 file:Cum_1.root   Always Root file version:50800
-%MSG-i FwkJob: Output file opened successfully.  06-Mar-2006 12:11:02 CET 
+%MSG-i FwkJob: Output file opened successfully.  14-Mar-2006 10:57:03 CET 
        pre-events
 %MSG-i PileUp: Adding pileup for event  run: 1 event: 1  MixingModule:mix 
-       06-Mar-2006 12:11:03 CET 1/1
+       14-Mar-2006 10:57:03 CET 1/1
 creating histos 1 ...
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:11:08 CET pre-events
-%MSG-w FwkJob: LFN:  Cum_1.root  not found  06-Mar-2006 12:11:09 CET pre-events
-%MSG-w FwkJob: PFN defaulted:  file:Cum_1.root  06-Mar-2006 12:11:09 CET 
+       14-Mar-2006 10:57:09 CET pre-events
+%MSG-w FwkJob: LFN:  Cum_1.root  not found  14-Mar-2006 10:57:11 CET pre-events
+%MSG-w FwkJob: PFN defaulted:  file:Cum_1.root  14-Mar-2006 10:57:11 CET 
        pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:11:09 CET 
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:57:11 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:Cum_1.root  06-Mar-2006 12:11:09 CET pre-events
+%MSG-i FwkJob: PFN:  file:Cum_1.root  14-Mar-2006 10:57:11 CET pre-events
 file:Cum_1.root   Always Root file version:50800
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:11:12 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:57:14 CET 
        pre-events
 Constructed testSuite , bunchcr 1 filename: histos.root
-[OVAL] Sigma of track pileup histo (bcrossings) 0
-[OVAL] Sigma of track signal histo (bcrossings) 0
-[OVAL] Sigma of track pileup histo (vtx indices) 29.1548
-[OVAL] Sigma of track signal histo (vtx indices) 29.1548
-[OVAL] Sigma of vertex pileup histo (bcrossings) 0
-[OVAL] Sigma of vertex signal histo (bcrossings) 0
-[OVAL] Sigma of vertex pileup histo (vtx indices) 0
-[OVAL] Sigma of vertex signal histo (vtx indices) 0
- No signal for subdetector TrackerHitsTECLowTof
-[OVAL] Sigma of tracker pileup histo (ToF) 0
-[OVAL] Sigma of tracker signal histo (ToF) 0
+[OVAL] Mean of track pileup histo (bcrossings) 0
+[OVAL] Mean of track signal histo (bcrossings) 1
+[OVAL] Mean of track pileup histo (vtx indices) 50
+[OVAL] Mean of track signal histo (vtx indices) 50
+[OVAL] Mean of vertex pileup histo (bcrossings) 0
+[OVAL] Mean of vertex signal histo (bcrossings) 1
+[OVAL] Mean of vertex pileup histo (track indices) 41
+[OVAL] Mean of vertex signal histo (track indices) 41
+[OVAL] Mean of tracker pileup histo (ToF) 29.1149
+[OVAL] Mean of tracker signal histo (ToF) 0
  No signal for subdetector EcalHitsEB
-[OVAL] Sigma of Ecal pileup histo (ToF) 0
-[OVAL] Sigma of eEal signal histo (ToF) 0
-[OVAL] Sigma of Hcal pileup histo (ToF) 2.64504
-[OVAL] Sigma of Hcal signal histo (ToF) 2.64504
+[OVAL] Mean of Ecal pileup histo (ToF) 0
+[OVAL] Mean of Ecal signal histo (ToF) 0
+[OVAL] Mean of Hcal pileup histo (ToF) 37.5155
+[OVAL] Mean of Hcal signal histo (ToF) 62.5155
 
 ===================> preparing for 2
 executing MixingModule 2....
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:11:19 CET pre-events
-%MSG-w FwkJob: LFN:  data/simevent.root  not found  06-Mar-2006 12:11:20 CET 
+       14-Mar-2006 10:57:20 CET pre-events
+%MSG-w FwkJob: LFN:  data/simevent.root  not found  14-Mar-2006 10:57:22 CET 
        pre-events
 %MSG-w FwkJob: PFN defaulted:  file:data/simevent.root  
-       06-Mar-2006 12:11:20 CET pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:11:20 CET 
+       14-Mar-2006 10:57:22 CET pre-events
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:57:22 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:data/simevent.root  06-Mar-2006 12:11:20 CET 
+%MSG-i FwkJob: PFN:  file:data/simevent.root  14-Mar-2006 10:57:22 CET 
        pre-events
 file:data/simevent.root   Always Root file version:50800
 file:data/simevent.root   Always Root file version:50800
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:11:23 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:57:25 CET 
        pre-events
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:11:24 CET pre-events
-%MSG-w FwkJob: LFN:  data/simevent.root  not found  06-Mar-2006 12:11:24 CET 
+       14-Mar-2006 10:57:26 CET pre-events
+%MSG-w FwkJob: LFN:  data/simevent.root  not found  14-Mar-2006 10:57:26 CET 
        pre-events
 %MSG-w FwkJob: PFN defaulted:  file:data/simevent.root  
-       06-Mar-2006 12:11:24 CET pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:11:24 CET 
+       14-Mar-2006 10:57:26 CET pre-events
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:57:26 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:data/simevent.root  06-Mar-2006 12:11:24 CET 
+%MSG-i FwkJob: PFN:  file:data/simevent.root  14-Mar-2006 10:57:26 CET 
        pre-events
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:11:24 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:57:26 CET 
        pre-events
 %MSG-i FwkJob: WRITE_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:11:25 CET pre-events
-%MSG-i FwkJob: Output file is about to be opened.  06-Mar-2006 12:11:25 CET 
+       14-Mar-2006 10:57:26 CET pre-events
+%MSG-i FwkJob: Output file is about to be opened.  14-Mar-2006 10:57:27 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:Cum_2.root  06-Mar-2006 12:11:25 CET pre-events
+%MSG-i FwkJob: PFN:  file:Cum_2.root  14-Mar-2006 10:57:27 CET pre-events
 file:Cum_2.root   Always Root file version:50800
-%MSG-i FwkJob: Output file opened successfully.  06-Mar-2006 12:11:25 CET 
+%MSG-i FwkJob: Output file opened successfully.  14-Mar-2006 10:57:27 CET 
        pre-events
 %MSG-i PileUp: Adding pileup for event  run: 1 event: 1  MixingModule:mix 
-       06-Mar-2006 12:11:25 CET 1/1
+       14-Mar-2006 10:57:27 CET 1/1
 creating histos 2 ...
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:11:30 CET pre-events
-%MSG-w FwkJob: LFN:  Cum_2.root  not found  06-Mar-2006 12:11:32 CET pre-events
-%MSG-w FwkJob: PFN defaulted:  file:Cum_2.root  06-Mar-2006 12:11:32 CET 
+       14-Mar-2006 10:57:33 CET pre-events
+%MSG-w FwkJob: LFN:  Cum_2.root  not found  14-Mar-2006 10:57:34 CET pre-events
+%MSG-w FwkJob: PFN defaulted:  file:Cum_2.root  14-Mar-2006 10:57:34 CET 
        pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:11:32 CET 
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:57:34 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:Cum_2.root  06-Mar-2006 12:11:32 CET pre-events
+%MSG-i FwkJob: PFN:  file:Cum_2.root  14-Mar-2006 10:57:34 CET pre-events
 file:Cum_2.root   Always Root file version:50800
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:11:35 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:57:38 CET 
        pre-events
 Constructed testSuite , bunchcr 2 filename: histos.root
-[OVAL] Sigma of track pileup histo (bcrossings) 0
-[OVAL] Sigma of track signal histo (bcrossings) 0
-[OVAL] Sigma of track pileup histo (vtx indices) 29.1548
-[OVAL] Sigma of track signal histo (vtx indices) 29.1548
-[OVAL] Sigma of vertex pileup histo (bcrossings) 0
-[OVAL] Sigma of vertex signal histo (bcrossings) 0
-[OVAL] Sigma of vertex pileup histo (vtx indices) 0
-[OVAL] Sigma of vertex signal histo (vtx indices) 0
- No signal for subdetector TrackerHitsTECLowTof
-[OVAL] Sigma of tracker pileup histo (ToF) 0
-[OVAL] Sigma of tracker signal histo (ToF) 0
+[OVAL] Mean of track pileup histo (bcrossings) 0
+[OVAL] Mean of track signal histo (bcrossings) 2
+[OVAL] Mean of track pileup histo (vtx indices) 50
+[OVAL] Mean of track signal histo (vtx indices) 50
+[OVAL] Mean of vertex pileup histo (bcrossings) 0
+[OVAL] Mean of vertex signal histo (bcrossings) 2
+[OVAL] Mean of vertex pileup histo (track indices) 41
+[OVAL] Mean of vertex signal histo (track indices) 41
+[OVAL] Mean of tracker pileup histo (ToF) 29.1149
+[OVAL] Mean of tracker signal histo (ToF) 0
  No signal for subdetector EcalHitsEB
-[OVAL] Sigma of Ecal pileup histo (ToF) 0
-[OVAL] Sigma of eEal signal histo (ToF) 0
-[OVAL] Sigma of Hcal pileup histo (ToF) 2.64504
-[OVAL] Sigma of Hcal signal histo (ToF) 2.64504
+[OVAL] Mean of Ecal pileup histo (ToF) 0
+[OVAL] Mean of Ecal signal histo (ToF) 0
+[OVAL] Mean of Hcal pileup histo (ToF) 37.5155
+[OVAL] Mean of Hcal signal histo (ToF) 87.5155
 
 ===================> preparing for 3
 executing MixingModule 3....
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:11:41 CET pre-events
-%MSG-w FwkJob: LFN:  data/simevent.root  not found  06-Mar-2006 12:11:42 CET 
+       14-Mar-2006 10:57:44 CET pre-events
+%MSG-w FwkJob: LFN:  data/simevent.root  not found  14-Mar-2006 10:57:46 CET 
        pre-events
 %MSG-w FwkJob: PFN defaulted:  file:data/simevent.root  
-       06-Mar-2006 12:11:42 CET pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:11:42 CET 
+       14-Mar-2006 10:57:46 CET pre-events
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:57:46 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:data/simevent.root  06-Mar-2006 12:11:42 CET 
+%MSG-i FwkJob: PFN:  file:data/simevent.root  14-Mar-2006 10:57:46 CET 
        pre-events
 file:data/simevent.root   Always Root file version:50800
 file:data/simevent.root   Always Root file version:50800
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:11:46 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:57:49 CET 
        pre-events
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:11:47 CET pre-events
-%MSG-w FwkJob: LFN:  data/simevent.root  not found  06-Mar-2006 12:11:47 CET 
+       14-Mar-2006 10:57:50 CET pre-events
+%MSG-w FwkJob: LFN:  data/simevent.root  not found  14-Mar-2006 10:57:50 CET 
        pre-events
 %MSG-w FwkJob: PFN defaulted:  file:data/simevent.root  
-       06-Mar-2006 12:11:47 CET pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:11:47 CET 
+       14-Mar-2006 10:57:50 CET pre-events
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:57:50 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:data/simevent.root  06-Mar-2006 12:11:47 CET 
+%MSG-i FwkJob: PFN:  file:data/simevent.root  14-Mar-2006 10:57:50 CET 
        pre-events
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:11:48 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:57:50 CET 
        pre-events
 %MSG-i FwkJob: WRITE_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:11:48 CET pre-events
-%MSG-i FwkJob: Output file is about to be opened.  06-Mar-2006 12:11:48 CET 
+       14-Mar-2006 10:57:50 CET pre-events
+%MSG-i FwkJob: Output file is about to be opened.  14-Mar-2006 10:57:50 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:Cum_3.root  06-Mar-2006 12:11:48 CET pre-events
+%MSG-i FwkJob: PFN:  file:Cum_3.root  14-Mar-2006 10:57:50 CET pre-events
 file:Cum_3.root   Always Root file version:50800
-%MSG-i FwkJob: Output file opened successfully.  06-Mar-2006 12:11:48 CET 
+%MSG-i FwkJob: Output file opened successfully.  14-Mar-2006 10:57:50 CET 
        pre-events
 %MSG-i PileUp: Adding pileup for event  run: 1 event: 1  MixingModule:mix 
-       06-Mar-2006 12:11:48 CET 1/1
+       14-Mar-2006 10:57:50 CET 1/1
 creating histos 3 ...
 %MSG-i FwkJob: READ_CATALOG:  file:PoolFileCatalog.xml  
-       06-Mar-2006 12:11:53 CET pre-events
-%MSG-w FwkJob: LFN:  Cum_3.root  not found  06-Mar-2006 12:11:55 CET pre-events
-%MSG-w FwkJob: PFN defaulted:  file:Cum_3.root  06-Mar-2006 12:11:55 CET 
+       14-Mar-2006 10:57:56 CET pre-events
+%MSG-w FwkJob: LFN:  Cum_3.root  not found  14-Mar-2006 10:57:58 CET pre-events
+%MSG-w FwkJob: PFN defaulted:  file:Cum_3.root  14-Mar-2006 10:57:58 CET 
        pre-events
-%MSG-i FwkJob: Input file is about to be opened.  06-Mar-2006 12:11:55 CET 
+%MSG-i FwkJob: Input file is about to be opened.  14-Mar-2006 10:57:58 CET 
        pre-events
-%MSG-i FwkJob: PFN:  file:Cum_3.root  06-Mar-2006 12:11:55 CET pre-events
+%MSG-i FwkJob: PFN:  file:Cum_3.root  14-Mar-2006 10:57:58 CET pre-events
 file:Cum_3.root   Always Root file version:50800
-%MSG-i FwkJob: Input file opened successfully.  06-Mar-2006 12:11:58 CET 
+%MSG-i FwkJob: Input file opened successfully.  14-Mar-2006 10:58:01 CET 
        pre-events
 Constructed testSuite , bunchcr 3 filename: histos.root
-[OVAL] Sigma of track pileup histo (bcrossings) 0
-[OVAL] Sigma of track signal histo (bcrossings) 0
-[OVAL] Sigma of track pileup histo (vtx indices) 29.1548
-[OVAL] Sigma of track signal histo (vtx indices) 29.1548
-[OVAL] Sigma of vertex pileup histo (bcrossings) 0
-[OVAL] Sigma of vertex signal histo (bcrossings) 0
-[OVAL] Sigma of vertex pileup histo (vtx indices) 0
-[OVAL] Sigma of vertex signal histo (vtx indices) 0
- No signal for subdetector TrackerHitsTECLowTof
-[OVAL] Sigma of tracker pileup histo (ToF) 0
-[OVAL] Sigma of tracker signal histo (ToF) 0
+[OVAL] Mean of track pileup histo (bcrossings) 0
+[OVAL] Mean of track signal histo (bcrossings) 3
+[OVAL] Mean of track pileup histo (vtx indices) 50
+[OVAL] Mean of track signal histo (vtx indices) 50
+[OVAL] Mean of vertex pileup histo (bcrossings) 0
+[OVAL] Mean of vertex signal histo (bcrossings) 3
+[OVAL] Mean of vertex pileup histo (track indices) 41
+[OVAL] Mean of vertex signal histo (track indices) 41
+[OVAL] Mean of tracker pileup histo (ToF) 29.1149
+[OVAL] Mean of tracker signal histo (ToF) 0
  No signal for subdetector EcalHitsEB
-[OVAL] Sigma of Ecal pileup histo (ToF) 0
-[OVAL] Sigma of eEal signal histo (ToF) 0
-[OVAL] Sigma of Hcal pileup histo (ToF) 2.64504
-[OVAL] Sigma of Hcal signal histo (ToF) 0.652722
-174.300u 14.910s 3:22.93 93.2%	0+0k 0+0io 142803pf+0w
+[OVAL] Mean of Ecal pileup histo (ToF) 0
+[OVAL] Mean of Ecal signal histo (ToF) 0
+[OVAL] Mean of Hcal pileup histo (ToF) 37.5155
+[OVAL] Mean of Hcal signal histo (ToF) 112.516
+166.600u 13.920s 3:25.22 87.9%	0+0k 0+0io 142973pf+0w
 
 [oval run] ==========================================
 [oval run] result: OK
 [oval run] ==========================================
-
-[oval diff] ================================================
-[oval diff] diff line: /^\[OVAL\](.*)$/
-[oval diff] ================================================
-
-=== log #60 != ref #66
-log: [OVAL] Sigma of track pileup histo (bcrossings) 0
-log: [OVAL] Sigma of track signal histo (bcrossings) 0
-log: [OVAL] Sigma of track pileup histo (vtx indices) 29.1548
-log: [OVAL] Sigma of track signal histo (vtx indices) 29.1548
-log: [OVAL] Sigma of vertex pileup histo (bcrossings) 0
-log: [OVAL] Sigma of vertex signal histo (bcrossings) 0
-log: [OVAL] Sigma of vertex pileup histo (vtx indices) 0
-log: [OVAL] Sigma of vertex signal histo (vtx indices) 0
----
-ref: [OVAL], Sigma of track pileup histo (bcrossings) 0
-ref: [OVAL], Sigma of track signal histo (bcrossings) 0
-ref: [OVAL], Sigma of track pileup histo (vtx indices) 29.1548
-ref: [OVAL], Sigma of track signal histo (vtx indices) 29.1548
-ref: [OVAL], Sigma of vertex pileup histo (bcrossings) 0
-ref: [OVAL], Sigma of vertex signal histo (bcrossings) 0
-ref: [OVAL], Sigma of vertex pileup histo (vtx indices) 0
-ref: [OVAL], Sigma of vertex signal histo (vtx indices) 0
-=== log #69 != ref #75
-log: [OVAL] Sigma of tracker pileup histo (ToF) 0
-log: [OVAL] Sigma of tracker signal histo (ToF) 0
----
-ref: [OVAL], Sigma of tracker pileup histo (ToF) 0
-ref: [OVAL], Sigma of tracker signal histo (ToF) 0
-=== log #72 != ref #78
-log: [OVAL] Sigma of Ecal pileup histo (ToF) 0
-log: [OVAL] Sigma of eEal signal histo (ToF) 0
-log: [OVAL] Sigma of Hcal pileup histo (ToF) 2.64504
-log: [OVAL] Sigma of Hcal signal histo (ToF) 2.64504
----
-ref: [OVAL], Sigma of Ecal pileup histo (ToF) 0
-ref: [OVAL], Sigma of eEal signal histo (ToF) 0
-ref: [OVAL], Sigma of Hcal pileup histo (ToF) 2.64504
-ref: [OVAL], Sigma of Hcal signal histo (ToF) 2.64504
-=== log #128 != ref #140
-log: [OVAL] Sigma of track pileup histo (bcrossings) 0
-log: [OVAL] Sigma of track signal histo (bcrossings) 0
-log: [OVAL] Sigma of track pileup histo (vtx indices) 29.1548
-log: [OVAL] Sigma of track signal histo (vtx indices) 29.1548
-log: [OVAL] Sigma of vertex pileup histo (bcrossings) 0
-log: [OVAL] Sigma of vertex signal histo (bcrossings) 0
-log: [OVAL] Sigma of vertex pileup histo (vtx indices) 0
-log: [OVAL] Sigma of vertex signal histo (vtx indices) 0
----
-ref: [OVAL], Sigma of track pileup histo (bcrossings) 0
-ref: [OVAL], Sigma of track signal histo (bcrossings) 0
-ref: [OVAL], Sigma of track pileup histo (vtx indices) 29.1548
-ref: [OVAL], Sigma of track signal histo (vtx indices) 29.1548
-ref: [OVAL], Sigma of vertex pileup histo (bcrossings) 0
-ref: [OVAL], Sigma of vertex signal histo (bcrossings) 0
-ref: [OVAL], Sigma of vertex pileup histo (vtx indices) 0
-ref: [OVAL], Sigma of vertex signal histo (vtx indices) 0
-=== log #137 != ref #149
-log: [OVAL] Sigma of tracker pileup histo (ToF) 0
-log: [OVAL] Sigma of tracker signal histo (ToF) 0
----
-ref: [OVAL], Sigma of tracker pileup histo (ToF) 0
-ref: [OVAL], Sigma of tracker signal histo (ToF) 0
-=== log #140 != ref #152
-log: [OVAL] Sigma of Ecal pileup histo (ToF) 0
-log: [OVAL] Sigma of eEal signal histo (ToF) 0
-log: [OVAL] Sigma of Hcal pileup histo (ToF) 2.64504
-log: [OVAL] Sigma of Hcal signal histo (ToF) 2.64504
----
-ref: [OVAL], Sigma of Ecal pileup histo (ToF) 0
-ref: [OVAL], Sigma of eEal signal histo (ToF) 0
-ref: [OVAL], Sigma of Hcal pileup histo (ToF) 2.64504
-ref: [OVAL], Sigma of Hcal signal histo (ToF) 2.64504
-=== log #196 != ref #216
-log: [OVAL] Sigma of track pileup histo (bcrossings) 0
-log: [OVAL] Sigma of track signal histo (bcrossings) 0
-log: [OVAL] Sigma of track pileup histo (vtx indices) 29.1548
-log: [OVAL] Sigma of track signal histo (vtx indices) 29.1548
-log: [OVAL] Sigma of vertex pileup histo (bcrossings) 0
-log: [OVAL] Sigma of vertex signal histo (bcrossings) 0
-log: [OVAL] Sigma of vertex pileup histo (vtx indices) 0
-log: [OVAL] Sigma of vertex signal histo (vtx indices) 0
----
-ref: [OVAL], Sigma of track pileup histo (bcrossings) 0
-ref: [OVAL], Sigma of track signal histo (bcrossings) 0
-ref: [OVAL], Sigma of track pileup histo (vtx indices) 29.1548
-ref: [OVAL], Sigma of track signal histo (vtx indices) 29.1548
-ref: [OVAL], Sigma of vertex pileup histo (bcrossings) 0
-ref: [OVAL], Sigma of vertex signal histo (bcrossings) 0
-ref: [OVAL], Sigma of vertex pileup histo (vtx indices) 0
-ref: [OVAL], Sigma of vertex signal histo (vtx indices) 0
-=== log #205 != ref #225
-log: [OVAL] Sigma of tracker pileup histo (ToF) 0
-log: [OVAL] Sigma of tracker signal histo (ToF) 0
----
-ref: [OVAL], Sigma of tracker pileup histo (ToF) 0
-ref: [OVAL], Sigma of tracker signal histo (ToF) 0
-=== log #208 != ref #228
-log: [OVAL] Sigma of Ecal pileup histo (ToF) 0
-log: [OVAL] Sigma of eEal signal histo (ToF) 0
-log: [OVAL] Sigma of Hcal pileup histo (ToF) 2.64504
-log: [OVAL] Sigma of Hcal signal histo (ToF) 2.64504
----
-ref: [OVAL], Sigma of Ecal pileup histo (ToF) 0
-ref: [OVAL], Sigma of eEal signal histo (ToF) 0
-ref: [OVAL], Sigma of Hcal pileup histo (ToF) 2.64504
-ref: [OVAL], Sigma of Hcal signal histo (ToF) 2.64504
-=== log #264 != ref #292
-log: [OVAL] Sigma of track pileup histo (bcrossings) 0
-log: [OVAL] Sigma of track signal histo (bcrossings) 0
-log: [OVAL] Sigma of track pileup histo (vtx indices) 29.1548
-log: [OVAL] Sigma of track signal histo (vtx indices) 29.1548
-log: [OVAL] Sigma of vertex pileup histo (bcrossings) 0
-log: [OVAL] Sigma of vertex signal histo (bcrossings) 0
-log: [OVAL] Sigma of vertex pileup histo (vtx indices) 0
-log: [OVAL] Sigma of vertex signal histo (vtx indices) 0
----
-ref: [OVAL], Sigma of track pileup histo (bcrossings) 0
-ref: [OVAL], Sigma of track signal histo (bcrossings) 0
-ref: [OVAL], Sigma of track pileup histo (vtx indices) 29.1548
-ref: [OVAL], Sigma of track signal histo (vtx indices) 29.1548
-ref: [OVAL], Sigma of vertex pileup histo (bcrossings) 0
-ref: [OVAL], Sigma of vertex signal histo (bcrossings) 0
-ref: [OVAL], Sigma of vertex pileup histo (vtx indices) 0
-ref: [OVAL], Sigma of vertex signal histo (vtx indices) 0
-=== log #273 != ref #301
-log: [OVAL] Sigma of tracker pileup histo (ToF) 0
-log: [OVAL] Sigma of tracker signal histo (ToF) 0
----
-ref: [OVAL], Sigma of tracker pileup histo (ToF) 0
-ref: [OVAL], Sigma of tracker signal histo (ToF) 0
-=== log #276 != ref #304
-log: [OVAL] Sigma of Ecal pileup histo (ToF) 0
-log: [OVAL] Sigma of eEal signal histo (ToF) 0
-log: [OVAL] Sigma of Hcal pileup histo (ToF) 2.64504
-log: [OVAL] Sigma of Hcal signal histo (ToF) 2.64504
----
-ref: [OVAL], Sigma of Ecal pileup histo (ToF) 0
-ref: [OVAL], Sigma of eEal signal histo (ToF) 0
-ref: [OVAL], Sigma of Hcal pileup histo (ToF) 2.64504
-ref: [OVAL], Sigma of Hcal signal histo (ToF) 2.64504
-=== log #332 != ref #368
-log: [OVAL] Sigma of track pileup histo (bcrossings) 0
-log: [OVAL] Sigma of track signal histo (bcrossings) 0
-log: [OVAL] Sigma of track pileup histo (vtx indices) 29.1548
-log: [OVAL] Sigma of track signal histo (vtx indices) 29.1548
-log: [OVAL] Sigma of vertex pileup histo (bcrossings) 0
-log: [OVAL] Sigma of vertex signal histo (bcrossings) 0
-log: [OVAL] Sigma of vertex pileup histo (vtx indices) 0
-log: [OVAL] Sigma of vertex signal histo (vtx indices) 0
----
-ref: [OVAL], Sigma of track pileup histo (bcrossings) 0
-ref: [OVAL], Sigma of track signal histo (bcrossings) 0
-ref: [OVAL], Sigma of track pileup histo (vtx indices) 29.1548
-ref: [OVAL], Sigma of track signal histo (vtx indices) 29.1548
-ref: [OVAL], Sigma of vertex pileup histo (bcrossings) 0
-ref: [OVAL], Sigma of vertex signal histo (bcrossings) 0
-ref: [OVAL], Sigma of vertex pileup histo (vtx indices) 0
-ref: [OVAL], Sigma of vertex signal histo (vtx indices) 0
-=== log #341 != ref #377
-log: [OVAL] Sigma of tracker pileup histo (ToF) 0
-log: [OVAL] Sigma of tracker signal histo (ToF) 0
----
-ref: [OVAL], Sigma of tracker pileup histo (ToF) 0
-ref: [OVAL], Sigma of tracker signal histo (ToF) 0
-=== log #344 != ref #380
-log: [OVAL] Sigma of Ecal pileup histo (ToF) 0
-log: [OVAL] Sigma of eEal signal histo (ToF) 0
-log: [OVAL] Sigma of Hcal pileup histo (ToF) 2.64504
-log: [OVAL] Sigma of Hcal signal histo (ToF) 2.64504
----
-ref: [OVAL], Sigma of Ecal pileup histo (ToF) 0
-ref: [OVAL], Sigma of eEal signal histo (ToF) 0
-ref: [OVAL], Sigma of Hcal pileup histo (ToF) 2.64504
-ref: [OVAL], Sigma of Hcal signal histo (ToF) 2.64504
-=== log #400 != ref #444
-log: [OVAL] Sigma of track pileup histo (bcrossings) 0
-log: [OVAL] Sigma of track signal histo (bcrossings) 0
-log: [OVAL] Sigma of track pileup histo (vtx indices) 29.1548
-log: [OVAL] Sigma of track signal histo (vtx indices) 29.1548
-log: [OVAL] Sigma of vertex pileup histo (bcrossings) 0
-log: [OVAL] Sigma of vertex signal histo (bcrossings) 0
-log: [OVAL] Sigma of vertex pileup histo (vtx indices) 0
-log: [OVAL] Sigma of vertex signal histo (vtx indices) 0
----
-ref: [OVAL], Sigma of track pileup histo (bcrossings) 0
-ref: [OVAL], Sigma of track signal histo (bcrossings) 0
-ref: [OVAL], Sigma of track pileup histo (vtx indices) 29.1548
-ref: [OVAL], Sigma of track signal histo (vtx indices) 29.1548
-ref: [OVAL], Sigma of vertex pileup histo (bcrossings) 0
-ref: [OVAL], Sigma of vertex signal histo (bcrossings) 0
-ref: [OVAL], Sigma of vertex pileup histo (vtx indices) 0
-ref: [OVAL], Sigma of vertex signal histo (vtx indices) 0
-=== log #409 != ref #453
-log: [OVAL] Sigma of tracker pileup histo (ToF) 0
-log: [OVAL] Sigma of tracker signal histo (ToF) 0
----
-ref: [OVAL], Sigma of tracker pileup histo (ToF) 0
-ref: [OVAL], Sigma of tracker signal histo (ToF) 0
-=== log #412 != ref #456
-log: [OVAL] Sigma of Ecal pileup histo (ToF) 0
-log: [OVAL] Sigma of eEal signal histo (ToF) 0
-log: [OVAL] Sigma of Hcal pileup histo (ToF) 2.64504
-log: [OVAL] Sigma of Hcal signal histo (ToF) 2.64504
----
-ref: [OVAL], Sigma of Ecal pileup histo (ToF) 0
-ref: [OVAL], Sigma of eEal signal histo (ToF) 0
-ref: [OVAL], Sigma of Hcal pileup histo (ToF) 2.64504
-ref: [OVAL], Sigma of Hcal signal histo (ToF) 2.64504
-=== log #468 != ref #520
-log: [OVAL] Sigma of track pileup histo (bcrossings) 0
-log: [OVAL] Sigma of track signal histo (bcrossings) 0
-log: [OVAL] Sigma of track pileup histo (vtx indices) 29.1548
-log: [OVAL] Sigma of track signal histo (vtx indices) 29.1548
-log: [OVAL] Sigma of vertex pileup histo (bcrossings) 0
-log: [OVAL] Sigma of vertex signal histo (bcrossings) 0
-log: [OVAL] Sigma of vertex pileup histo (vtx indices) 0
-log: [OVAL] Sigma of vertex signal histo (vtx indices) 0
----
-ref: [OVAL], Sigma of track pileup histo (bcrossings) 0
-ref: [OVAL], Sigma of track signal histo (bcrossings) 0
-ref: [OVAL], Sigma of track pileup histo (vtx indices) 29.1548
-ref: [OVAL], Sigma of track signal histo (vtx indices) 29.1548
-ref: [OVAL], Sigma of vertex pileup histo (bcrossings) 0
-ref: [OVAL], Sigma of vertex signal histo (bcrossings) 0
-ref: [OVAL], Sigma of vertex pileup histo (vtx indices) 0
-ref: [OVAL], Sigma of vertex signal histo (vtx indices) 0
-=== log #477 != ref #529
-log: [OVAL] Sigma of tracker pileup histo (ToF) 0
-log: [OVAL] Sigma of tracker signal histo (ToF) 0
----
-ref: [OVAL], Sigma of tracker pileup histo (ToF) 0
-ref: [OVAL], Sigma of tracker signal histo (ToF) 0
-=== log #480 != ref #532
-log: [OVAL] Sigma of Ecal pileup histo (ToF) 0
-log: [OVAL] Sigma of eEal signal histo (ToF) 0
-log: [OVAL] Sigma of Hcal pileup histo (ToF) 2.64504
-log: [OVAL] Sigma of Hcal signal histo (ToF) 2.64504
----
-ref: [OVAL], Sigma of Ecal pileup histo (ToF) 0
-ref: [OVAL], Sigma of eEal signal histo (ToF) 0
-ref: [OVAL], Sigma of Hcal pileup histo (ToF) 2.64504
-ref: [OVAL], Sigma of Hcal signal histo (ToF) 2.64504
-=== log #536 != ref #596
-log: [OVAL] Sigma of track pileup histo (bcrossings) 0
-log: [OVAL] Sigma of track signal histo (bcrossings) 0
-log: [OVAL] Sigma of track pileup histo (vtx indices) 29.1548
-log: [OVAL] Sigma of track signal histo (vtx indices) 29.1548
-log: [OVAL] Sigma of vertex pileup histo (bcrossings) 0
-log: [OVAL] Sigma of vertex signal histo (bcrossings) 0
-log: [OVAL] Sigma of vertex pileup histo (vtx indices) 0
-log: [OVAL] Sigma of vertex signal histo (vtx indices) 0
----
-ref: [OVAL], Sigma of track pileup histo (bcrossings) 0
-ref: [OVAL], Sigma of track signal histo (bcrossings) 0
-ref: [OVAL], Sigma of track pileup histo (vtx indices) 29.1548
-ref: [OVAL], Sigma of track signal histo (vtx indices) 29.1548
-ref: [OVAL], Sigma of vertex pileup histo (bcrossings) 0
-ref: [OVAL], Sigma of vertex signal histo (bcrossings) 0
-ref: [OVAL], Sigma of vertex pileup histo (vtx indices) 0
-ref: [OVAL], Sigma of vertex signal histo (vtx indices) 0
-=== log #545 != ref #605
-log: [OVAL] Sigma of tracker pileup histo (ToF) 0
-log: [OVAL] Sigma of tracker signal histo (ToF) 0
----
-ref: [OVAL], Sigma of tracker pileup histo (ToF) 0
-ref: [OVAL], Sigma of tracker signal histo (ToF) 0
-=== log #548 != ref #608
-log: [OVAL] Sigma of Ecal pileup histo (ToF) 0
-log: [OVAL] Sigma of eEal signal histo (ToF) 0
-log: [OVAL] Sigma of Hcal pileup histo (ToF) 2.64504
-log: [OVAL] Sigma of Hcal signal histo (ToF) 2.64504
----
-ref: [OVAL], Sigma of Ecal pileup histo (ToF) 0
-ref: [OVAL], Sigma of eEal signal histo (ToF) 0
-ref: [OVAL], Sigma of Hcal pileup histo (ToF) 2.64504
-ref: [OVAL], Sigma of Hcal signal histo (ToF) 2.64504
-=== log #604 != ref #672
-log: [OVAL] Sigma of track pileup histo (bcrossings) 0
-log: [OVAL] Sigma of track signal histo (bcrossings) 0
-log: [OVAL] Sigma of track pileup histo (vtx indices) 29.1548
-log: [OVAL] Sigma of track signal histo (vtx indices) 29.1548
-log: [OVAL] Sigma of vertex pileup histo (bcrossings) 0
-log: [OVAL] Sigma of vertex signal histo (bcrossings) 0
-log: [OVAL] Sigma of vertex pileup histo (vtx indices) 0
-log: [OVAL] Sigma of vertex signal histo (vtx indices) 0
----
-ref: [OVAL], Sigma of track pileup histo (bcrossings) 0
-ref: [OVAL], Sigma of track signal histo (bcrossings) 0
-ref: [OVAL], Sigma of track pileup histo (vtx indices) 29.1548
-ref: [OVAL], Sigma of track signal histo (vtx indices) 29.1548
-ref: [OVAL], Sigma of vertex pileup histo (bcrossings) 0
-ref: [OVAL], Sigma of vertex signal histo (bcrossings) 0
-ref: [OVAL], Sigma of vertex pileup histo (vtx indices) 0
-ref: [OVAL], Sigma of vertex signal histo (vtx indices) 0
-=== log #613 != ref #681
-log: [OVAL] Sigma of tracker pileup histo (ToF) 0
-log: [OVAL] Sigma of tracker signal histo (ToF) 0
----
-ref: [OVAL], Sigma of tracker pileup histo (ToF) 0
-ref: [OVAL], Sigma of tracker signal histo (ToF) 0
-=== log #616 != ref #684
-log: [OVAL] Sigma of Ecal pileup histo (ToF) 0
-log: [OVAL] Sigma of eEal signal histo (ToF) 0
-log: [OVAL] Sigma of Hcal pileup histo (ToF) 2.64504
-log: [OVAL] Sigma of Hcal signal histo (ToF) 0.652722
----
-ref: [OVAL], Sigma of Ecal pileup histo (ToF) 0
-ref: [OVAL], Sigma of eEal signal histo (ToF) 0
-ref: [OVAL], Sigma of Hcal pileup histo (ToF) 2.64504
-ref: [OVAL], Sigma of Hcal signal histo (ToF) 0.652722
-
-[oval diff] =========================================
-[oval diff] result: DIFFS
-[oval diff] =========================================
 
