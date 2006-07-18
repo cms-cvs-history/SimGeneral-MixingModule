@@ -1,0 +1,13 @@
+
+	module mix = MixingModule {
+	       secsource input = PoolRASource {
+		               untracked vstring fileNames = {'rfio:/castor/cern.ch/cms/store/unmerged/PreProd/2006/7/16/Test080pre5E10GeV/GEN-SIM/0000/48887FA1-1C15-DB11-BC94-00304856275A.root'}          # could not find minbias events in CERN
+			       string type = "poisson"
+			       double averageNumber = 3
+			       int32 minBunch = -1
+			       int32 maxBunch = 2
+			       int32 seed = 1234567
+	       }
+	       int32 bunchspace = 25
+	       untracked bool checktof =false
+	}
