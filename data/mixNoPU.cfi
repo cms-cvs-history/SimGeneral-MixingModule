@@ -1,0 +1,9 @@
+  # this is a minimum configuration of the Mixing module,
+  # to run it in the zero-pileup mode
+  #
+  module mix = MixingModule
+  {
+     int32 bunchspace = 25
+  }
+
+ 
