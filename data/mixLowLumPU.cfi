@@ -1,7 +1,8 @@
 # this is the configuration to model pileup in the low-luminosity phase
   module mix = MixingModule
   {
-     secsource input = PoolRASource
+ 
+    secsource input = PoolRASource
      {
         untracked vstring fileNames =
     {
