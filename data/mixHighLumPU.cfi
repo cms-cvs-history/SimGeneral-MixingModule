@@ -5,20 +5,12 @@
      {
         untracked vstring fileNames =
     {
-        #
-        # these 7 files hold ~53K minbias events similated in the detector (SimHits)
-        # with CMSSW_1_1_0; they can be used for pileup modeling;
-        # files seem to be compatible with 1_2_0-series (as of 120pre2);
-        # available at CERN (CASTOR) and Fnal (dCache);
-        # they're registered in DBS, thus they should be globally accessible via CRAB
-        #
-        '/store/MC/2006/10/23/MC-110-os-minbias/2076379F-6B63-DB11-AC13-001731AF685B.root',
-        '/store/MC/2006/10/23/MC-110-os-minbias/469248E1-8063-DB11-8B60-003048767EDF.root',
-        '/store/MC/2006/10/23/MC-110-os-minbias/78E69C0D-3963-DB11-8B99-003048769E89.root',
-        '/store/MC/2006/10/23/MC-110-os-minbias/86B20A7F-3E63-DB11-9933-00304870E0AF.root',
-        '/store/MC/2006/10/23/MC-110-os-minbias/BA337A0F-3963-DB11-8D09-001731A28A31.root',
-        '/store/MC/2006/10/23/MC-110-os-minbias/C8B52F25-2963-DB11-8FDB-00304870DB05.root',
-        '/store/MC/2006/10/23/MC-110-os-minbias/CC080FD5-5B63-DB11-A054-00304870DDA9.root'
+        '/store/mc/2007/6/12/CSA07-Minbias-1911/0000/007D90A2-7C1D-DC11-B793-001560AC4F10.root',
+        '/store/mc/2007/6/12/CSA07-Minbias-1911/0000/02B977F6-711D-DC11-9626-00163E0A70C2.root',
+        '/store/mc/2007/6/12/CSA07-Minbias-1911/0000/082B63FC-711D-DC11-BEB6-001143D48B58.root',
+        '/store/mc/2007/6/12/CSA07-Minbias-1911/0000/0C068766-C81D-DC11-8250-001143D4A804.root',
+        '/store/mc/2007/6/12/CSA07-Minbias-1911/0000/0CF80A91-731D-DC11-A8F5-001143D1EDF5.root',
+        '/store/mc/2007/6/12/CSA07-Minbias-1911/0000/0CFF68B1-BB1D-DC11-BD47-00163E0A70C4.root'
         }
         string type = "poisson"
         double averageNumber = 25
