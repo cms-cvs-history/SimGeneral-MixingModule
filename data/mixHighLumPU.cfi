@@ -13,7 +13,10 @@
         '/store/mc/2007/6/12/CSA07-Minbias-1911/0000/0CFF68B1-BB1D-DC11-BD47-00163E0A70C4.root'
         }
         string type = "poisson"
-        double averageNumber = 25
+        PSet nbPileupEvents = {
+          double Lumi =10
+   	  double sigmaTot=100
+        }
         int32 minBunch = -5
         int32 maxBunch = +3
         int32 seed = 1234567

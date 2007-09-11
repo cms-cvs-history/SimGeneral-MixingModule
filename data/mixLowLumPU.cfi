@@ -5,7 +5,7 @@
     secsource input = PoolRASource
      {
         untracked vstring fileNames =
-    {
+        {
         '/store/mc/2007/6/12/CSA07-Minbias-1911/0000/007D90A2-7C1D-DC11-B793-001560AC4F10.root',
         '/store/mc/2007/6/12/CSA07-Minbias-1911/0000/02B977F6-711D-DC11-9626-00163E0A70C2.root',
         '/store/mc/2007/6/12/CSA07-Minbias-1911/0000/082B63FC-711D-DC11-BEB6-001143D48B58.root',
@@ -14,7 +14,10 @@
         '/store/mc/2007/6/12/CSA07-Minbias-1911/0000/0CFF68B1-BB1D-DC11-BD47-00163E0A70C4.root' 
         }
         string type = "poisson"
-        double averageNumber = 5
+        PSet nbPileupEvents = {
+          double Lumi =2
+   	  double sigmaTot=100
+        }
         int32 minBunch = -5
         int32 maxBunch = +3
         int32 seed = 1234567
