@@ -2,7 +2,7 @@
   module mix = MixingModule
   {
  
-    secsource input = PoolRASource
+    secsource input = PoolSource
      {
         untracked vstring fileNames =
         {
@@ -15,10 +15,10 @@
         }
         string type = "poisson"
         PSet nbPileupEvents = {
-          double Lumi =2
-   	  double sigmaTot=100
+          double Lumi =2.8  # E33 mb
+   	  double sigmaTot=80  # in fact sigma inel
         }
-        int32 minBunch = -5
+        int32 minBunch = -5   # in terms of 25 ns
         int32 maxBunch = +3
         int32 seed = 1234567
       }
