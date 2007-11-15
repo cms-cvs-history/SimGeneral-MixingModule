@@ -15,7 +15,8 @@
         }
         string type = "poisson"
         PSet nbPileupEvents = {
-          double Lumi =.0061   #E33 mb
+          double Lumi =.0061   # E33 cm-2s-1
+
    	  double sigmaTot=80   # in fact sigma inel
         }
         int32 minBunch = -5    # in terms of 25 nsec

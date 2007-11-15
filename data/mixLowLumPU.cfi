@@ -15,13 +15,14 @@
         }
         string type = "poisson"
         PSet nbPileupEvents = {
-          double Lumi =2.8  # E33 mb
+          double Lumi =2.8    # E33 cm-2s-1
    	  double sigmaTot=80  # in fact sigma inel
         }
-        int32 minBunch = -5   # in terms of 25 ns
-        int32 maxBunch = +3
         int32 seed = 1234567
       }
-      int32 bunchspace = 25
+
+      int32 minBunch = -5  # in terms of 25 ns
+      int32 maxBunch = +3
+      int32 bunchspace = 25 # nsec
       string Label = ""  
   }
