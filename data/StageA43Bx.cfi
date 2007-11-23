@@ -19,10 +19,10 @@
 
    	  double sigmaTot=80   # in fact sigma inel
         }
-        int32 minBunch = -5    # in terms of 25 nsec
-        int32 maxBunch = +3
         int32 seed = 1234567
       }
       int32 bunchspace = 1632   #ns
+      int32 minBunch = -5    # in terms of 25 nsec
+      int32 maxBunch = +3
       string Label = ""  
   }
