@@ -1,4 +1,8 @@
 # this is the configuration to model pileup in the low-luminosity phase
+# here we have an example with 4 input sources
+# please note that the names of the input sources are fixed: 'input', 'cosmics', 'beamhalo_minus', 'beamhalo_plus'
+# but you are free to put only those you need
+#
   module mix = MixingModule
   {
  
@@ -18,7 +22,7 @@
         int32 seed = 1234567
       }
 
-    secsource beamhalo = PoolSource
+    secsource cosmics = PoolSource
      {
         untracked vstring fileNames =
         {
@@ -26,14 +30,29 @@
 	    '/store/mc/2007/11/7/RelVal-RelValMinBias-1194454636/0000/B2D325C6-B38D-DC11-8947-000423D6B2D8.root',
 	    '/store/mc/2007/11/7/RelVal-RelValMinBias-1194454636/0000/EC31C9EB-B68D-DC11-86F9-000423D9517C.root'
         }
-        string type = "poisson"
+        string type = "fixed"
+        PSet nbPileupEvents = {
+          double averageNumber =1
+        }
+        int32 seed = 2345678
+      }
+
+    secsource beamhalo_plus = PoolSource
+     {
+        untracked vstring fileNames =
+        {
+	    '/store/mc/2007/11/7/RelVal-RelValMinBias-1194454636/0000/481686F1-AE8D-DC11-88EF-001617C3B78C.root',
+	    '/store/mc/2007/11/7/RelVal-RelValMinBias-1194454636/0000/B2D325C6-B38D-DC11-8947-000423D6B2D8.root',
+	    '/store/mc/2007/11/7/RelVal-RelValMinBias-1194454636/0000/EC31C9EB-B68D-DC11-86F9-000423D9517C.root'
+        }
+        string type = "fixed"
         PSet nbPileupEvents = {
           double averageNumber =2
         }
         int32 seed = 3456789
       }
 
-    secsource cosmics = PoolSource
+    secsource beamhalo_minus = PoolSource
      {
         untracked vstring fileNames =
         {
@@ -45,7 +64,7 @@
         PSet nbPileupEvents = {
           double averageNumber =3
         }
-        int32 seed = 2345678
+        int32 seed = 3456789
       }
 
       int32 minBunch = -5   # in units of 25 nsec
