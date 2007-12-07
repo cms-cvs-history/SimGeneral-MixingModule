@@ -7,6 +7,7 @@
      string Label = ""
      int32 minBunch = -5  # in terms of 25 ns
      int32 maxBunch = +3
+     untracked bool playback = false
   }
 
  
