@@ -1,27 +1,26 @@
-# this is the configuration to model pileup for final scheme 
+# this is the configuration to model pileup in the high-luminosity phase
   module mix = MixingModule
   {
-     secsource input = PoolSource
+     secsource input = PoolRASource
      {
         untracked vstring fileNames =
-        {
-	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/140FBA0E-1599-DC11-B571-000423D99F3E.root',
-	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/7A051E1C-4799-DC11-81FD-000423D99E46.root',
-	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/9C659A18-4799-DC11-8899-000423D6C8E6.root',
-	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/AADBC61C-4799-DC11-A162-000423D98AF0.root',
-	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/B81B6DF7-2898-DC11-8ED5-001617E30F56.root'
+    {
+        '/store/mc/2007/6/12/CSA07-Minbias-1911/0000/007D90A2-7C1D-DC11-B793-001560AC4F10.root',
+        '/store/mc/2007/6/12/CSA07-Minbias-1911/0000/02B977F6-711D-DC11-9626-00163E0A70C2.root',
+        '/store/mc/2007/6/12/CSA07-Minbias-1911/0000/082B63FC-711D-DC11-BEB6-001143D48B58.root',
+        '/store/mc/2007/6/12/CSA07-Minbias-1911/0000/0C068766-C81D-DC11-8250-001143D4A804.root',
+        '/store/mc/2007/6/12/CSA07-Minbias-1911/0000/0CF80A91-731D-DC11-A8F5-001143D1EDF5.root',
+        '/store/mc/2007/6/12/CSA07-Minbias-1911/0000/0CFF68B1-BB1D-DC11-BD47-00163E0A70C4.root'
         }
         string type = "poisson"
         PSet nbPileupEvents = {
-          double Lumi =10.     # E33 cm-2s-1
-   	  double sigmaInel=80  # mb
+          double Lumi =10
+   	  double sigmaTot=100
         }
+        int32 minBunch = -5
+        int32 maxBunch = +3
         int32 seed = 1234567
       }
-
-      int32 minBunch = -5      # in terms of 25 ns
-      int32 maxBunch = +3
-      int32 bunchspace = 25    # ns
+      int32 bunchspace = 25
       string Label = ""
-      untracked bool playback = false
   }
