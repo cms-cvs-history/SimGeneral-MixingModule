@@ -1,6 +1,0 @@
-# include file for zero adding of pileup
-	module mix = MixingModule {
-	       int32 bunchspace = 25
-	       untracked bool checktof =false
-               string Label = ""
-	}

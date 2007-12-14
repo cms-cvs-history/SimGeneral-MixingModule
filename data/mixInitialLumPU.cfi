@@ -1,7 +1,8 @@
-# this is the configuration to model pileup for final scheme 
+# configuration to model pileup for initial physics phase
   module mix = MixingModule
   {
-     secsource input = PoolSource
+ 
+    secsource input = PoolSource
      {
         untracked vstring fileNames =
         {
@@ -13,15 +14,14 @@
         }
         string type = "poisson"
         PSet nbPileupEvents = {
-          double Lumi =10.     # E33 cm-2s-1
+          double Lumi =.5      # E33 cm-2s-1
    	  double sigmaInel=80  # mb
         }
         int32 seed = 1234567
       }
-
-      int32 minBunch = -5      # in terms of 25 ns
+      int32 bunchspace = 75    #ns
+      int32 minBunch = -5      # in terms of 25 nsec
       int32 maxBunch = +3
-      int32 bunchspace = 25    # ns
-      string Label = ""
+      string Label = ""  
       untracked bool playback = false
   }
