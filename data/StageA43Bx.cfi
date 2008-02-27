@@ -6,10 +6,11 @@
      {
         untracked vstring fileNames =
         {
-	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/7A051E1C-4799-DC11-81FD-000423D99E46.root',
-	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/9C659A18-4799-DC11-8899-000423D6C8E6.root',
-	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/AADBC61C-4799-DC11-A162-000423D98AF0.root',
-	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/B81B6DF7-2898-DC11-8ED5-001617E30F56.root'
+	    '/store/relval/2008/2/14/RelVal-RelValMinbias-1203012877/0000/264B55F1-A6DB-DC11-B415-000423D94700.root',
+	    '/store/relval/2008/2/14/RelVal-RelValMinbias-1203012877/0000/2E2E3011-A3DB-DC11-95D2-000423D98DB4.root',
+	    '/store/relval/2008/2/14/RelVal-RelValMinbias-1203012877/0000/78CD8FAD-A9DB-DC11-A88E-000423D6B328.root',
+	    '/store/relval/2008/2/14/RelVal-RelValMinbias-1203012877/0000/90E6B49E-A3DB-DC11-A871-000423D9939C.root',
+	    '/store/relval/2008/2/14/RelVal-RelValMinbias-1203012877/0000/9A16EB56-A8DB-DC11-914D-001617C3B6CE.root'
       }
         string type = "poisson"
         PSet nbPileupEvents = {
