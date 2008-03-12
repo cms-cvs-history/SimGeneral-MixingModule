@@ -2,29 +2,25 @@
   module mix = MixingModule
   {
  
-    secsource input = PoolSource
+    secsource input = PoolRASource
      {
-        untracked vstring fileNames =
-        {
-	    '/store/relval/2008/2/14/RelVal-RelValMinbias-1203012877/0000/264B55F1-A6DB-DC11-B415-000423D94700.root',
-	    '/store/relval/2008/2/14/RelVal-RelValMinbias-1203012877/0000/2E2E3011-A3DB-DC11-95D2-000423D98DB4.root',
-	    '/store/relval/2008/2/14/RelVal-RelValMinbias-1203012877/0000/78CD8FAD-A9DB-DC11-A88E-000423D6B328.root',
-	    '/store/relval/2008/2/14/RelVal-RelValMinbias-1203012877/0000/90E6B49E-A3DB-DC11-A871-000423D9939C.root',
-	    '/store/relval/2008/2/14/RelVal-RelValMinbias-1203012877/0000/9A16EB56-A8DB-DC11-914D-001617C3B6CE.root'
-        }
-
+	untracked vstring fileNames = {'file:/data/uberthon/tpg/4299AD63-5661-DC11-800C-001731AF6867.root'}
+#	untracked vstring fileNames = {'rfio:/castor/cern.ch/cms/store/mc/2007/6/26/CSA07-QCD_Pt_170_230-1965/0000/002C8E9B-2B2D-DC11-BAE8-000D609A8DC2.root'}
+#        untracked vstring fileNames =
+#    {
+#        '/store/mc/2007/6/12/CSA07-Minbias-1911/0000/007D90A2-7C1D-DC11-B793-001560AC4F10.root',
+#        '/store/mc/2007/6/12/CSA07-Minbias-1911/0000/02B977F6-711D-DC11-9626-00163E0A70C2.root',
+#        '/store/mc/2007/6/12/CSA07-Minbias-1911/0000/082B63FC-711D-DC11-BEB6-001143D48B58.root',
+##        '/store/mc/2007/6/12/CSA07-Minbias-1911/0000/0C068766-C81D-DC11-8250-001143D4A804.root',
+#        '/store/mc/2007/6/12/CSA07-Minbias-1911/0000/0CF80A91-731D-DC11-A8F5-001143D1EDF5.root',
+#        '/store/mc/2007/6/12/CSA07-Minbias-1911/0000/0CFF68B1-BB1D-DC11-BD47-00163E0A70C4.root' 
+#        }
         string type = "poisson"
-        PSet nbPileupEvents = {
-          double Lumi =2.8     # E33 cm-2s-1
-   	  double sigmaInel=80  # mb
-        }
+        double averageNumber = 5
+        int32 minBunch = -5
+        int32 maxBunch = +3
         int32 seed = 1234567
-
       }
-
-      int32 minBunch = -5      # in terms of 25 ns
-      int32 maxBunch = +3
-      int32 bunchspace = 25    # nsec
+      int32 bunchspace = 25
       string Label = ""  
-      untracked bool playback = false
   }
