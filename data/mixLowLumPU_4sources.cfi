@@ -1,0 +1,84 @@
+# this is the configuration to model pileup in the low-luminosity phase
+# here we have an example with 4 input sources
+# but you are free to put only those you need
+# or you can replace the type by "none" for a source you dont want
+# please note that the names of the input sources are fixed: 'input', 'cosmics', 'beamhalo_minus', 'beamhalo_plus'
+#
+  module mix = MixingModule
+  {
+ 
+    secsource input = PoolSource
+     {
+        untracked vstring fileNames =
+        {
+	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/140FBA0E-1599-DC11-B571-000423D99F3E.root',
+	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/7A051E1C-4799-DC11-81FD-000423D99E46.root',
+	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/9C659A18-4799-DC11-8899-000423D6C8E6.root',
+	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/AADBC61C-4799-DC11-A162-000423D98AF0.root',
+	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/B81B6DF7-2898-DC11-8ED5-001617E30F56.root'
+        }
+        string type = "poisson"
+        PSet nbPileupEvents = {
+          double Lumi =2        # E33 cm-2s-1
+   	  double sigmaInel=80   # mb
+        }
+        int32 seed = 1234567
+      }
+
+    secsource cosmics = PoolSource
+     {
+        untracked vstring fileNames =
+        {
+	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/140FBA0E-1599-DC11-B571-000423D99F3E.root',
+	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/7A051E1C-4799-DC11-81FD-000423D99E46.root',
+	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/9C659A18-4799-DC11-8899-000423D6C8E6.root',
+	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/AADBC61C-4799-DC11-A162-000423D98AF0.root',
+	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/B81B6DF7-2898-DC11-8ED5-001617E30F56.root'
+        }
+        string type = "poisson"
+        PSet nbPileupEvents = {
+          double averageNumber =5
+        }
+        int32 seed = 2345678
+      }
+
+    secsource beamhalo_plus = PoolSource
+     {
+        untracked vstring fileNames =
+        {
+	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/140FBA0E-1599-DC11-B571-000423D99F3E.root',
+	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/7A051E1C-4799-DC11-81FD-000423D99E46.root',
+	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/9C659A18-4799-DC11-8899-000423D6C8E6.root',
+	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/AADBC61C-4799-DC11-A162-000423D98AF0.root',    
+	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/B81B6DF7-2898-DC11-8ED5-001617E30F56.root'
+        }
+        string type = "poisson"
+        PSet nbPileupEvents = {
+          double averageNumber =5
+        }
+        int32 seed = 3456789
+      }
+
+    secsource beamhalo_minus = PoolSource
+     {
+        untracked vstring fileNames =
+        {
+	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/140FBA0E-1599-DC11-B571-000423D99F3E.root',
+	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/7A051E1C-4799-DC11-81FD-000423D99E46.root',
+	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/9C659A18-4799-DC11-8899-000423D6C8E6.root',
+	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/AADBC61C-4799-DC11-A162-000423D98AF0.root',
+	    '/store/mc/2007/11/20/RelVal-RelValMinBias-1195584891/0000/B81B6DF7-2898-DC11-8ED5-001617E30F56.root'
+        }
+        string type = "poisson"
+        PSet nbPileupEvents = {
+          double averageNumber =5
+        }
+         int32 seed = 3456789
+      }
+
+      int32 minBunch = -5   # in units of 25 nsec
+      int32 maxBunch = +3
+      int32 bunchspace = 25 # nsec
+      string Label = ""  
+      untracked bool playback = false
+}
