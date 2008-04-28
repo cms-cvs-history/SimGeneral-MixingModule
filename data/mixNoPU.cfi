@@ -4,10 +4,12 @@
   module mix = MixingModule
   {
      int32 bunchspace = 25
-     string Label = ""
+     string LabelPlayback = ""
      int32 minBunch = -5  # in terms of 25 ns
      int32 maxBunch = +3
      untracked bool playback = false
-  }
+
+     PSet mixObjects ={}
+ }
 
  

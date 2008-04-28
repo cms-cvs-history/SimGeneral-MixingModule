@@ -90,6 +90,14 @@
       int32 minBunch = -5   # in units of 25 nsec
       int32 maxBunch = +3
       int32 bunchspace = 25 # nsec
-      string Label = ""  
+      string LabelPlayback = ""  
       untracked bool playback = false
+
+  PSet mixObjects ={
+	PSet mixSimTracks = {using mixSimTracks}
+	PSet mixSimVertices =  {using mixSimVertices}
+	PSet mixSimHits =  {using mixSimHits}
+	PSet mixCaloHits =  {using mixCaloHits}
+	PSet mixHepMCProducts = {using mixHepMCProducts}
+  }
 }

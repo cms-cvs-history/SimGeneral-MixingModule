@@ -1,7 +1,9 @@
 # this is the configuration to model pileup in the low-luminosity phase
+
+include "SimGeneral/MixingModule/data/mixObjects.cfi" 
+
   module mix = MixingModule
   {
- 
     secsource input = PoolSource
      {
         untracked vstring fileNames =
@@ -28,6 +30,17 @@
       int32 minBunch = -5      # in terms of 25 ns
       int32 maxBunch = +3
       int32 bunchspace = 25    # nsec
-      string Label = ""  
+      string LabelPlayback = ""  
       untracked bool playback = false
-  }
+
+PSet mixObjects ={
+	PSet mixSimTracks = {using mixSimTracks}
+	PSet mixSimVertices =  {using mixSimVertices}
+	PSet mixSimHits =  {using mixSimHits}
+	PSet mixCaloHits =  {using mixCaloHits}
+	PSet mixHepMCProducts = {using mixHepMCProducts}
+}
+  
+
+}
+
