@@ -9,7 +9,14 @@
      int32 maxBunch = +3
      untracked bool playback = false
 
-     PSet mixObjects ={}
- }
+     PSet mixObjects ={
+        PSet mixSimTracks = {using mixSimTracks}
+        PSet mixSimVertices =  {using mixSimVertices}
+        PSet mixSimHits =  {using mixSimHits}
+        PSet mixCaloHits =  {using mixCaloHits}
+        PSet mixHepMCProducts = {using mixHepMCProducts}
+     }
+
+  }
 
  
