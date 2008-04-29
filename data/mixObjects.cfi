@@ -1,0 +1,37 @@
+block mixSimHits={ string type="PSimHit"
+    vstring subdets={"BSCHits","FP420SI","MuonCSCHits","MuonDTHits","MuonRPCHits","TotemHitsRP",
+                     "TotemHitsT1","TotemHitsT2Gem","TrackerHitsPixelBarrelHighTof",
+                     "TrackerHitsPixelBarrelLowTof","TrackerHitsPixelEndcapHighTof",
+                     "TrackerHitsPixelEndcapLowTof","TrackerHitsTECHighTof","TrackerHitsTECLowTof",
+                     "TrackerHitsTIBHighTof","TrackerHitsTIBLowTof","TrackerHitsTIDHighTof",
+                     "TrackerHitsTIDLowTof","TrackerHitsTOBHighTof","TrackerHitsTOBLowTof"}
+    VInputTag input ={":BSCHits",":FP420SI",":MuonCSCHits",":MuonDTHits",":MuonRPCHits",":TotemHitsRP",
+                      ":TotemHitsT1",":TotemHitsT2Gem",":TrackerHitsPixelBarrelHighTof",
+                      ":TrackerHitsPixelBarrelLowTof",":TrackerHitsPixelEndcapHighTof",
+                      ":TrackerHitsPixelEndcapLowTof",":TrackerHitsTECHighTof",":TrackerHitsTECLowTof",
+                      ":TrackerHitsTIBHighTof",":TrackerHitsTIBLowTof",":TrackerHitsTIDHighTof",
+                      ":TrackerHitsTIDLowTof",":TrackerHitsTOBHighTof",":TrackerHitsTOBLowTof"} 
+}
+
+block mixCaloHits={ string type="PCaloHit"
+    vstring subdets={"CaloHitsTk","CastorBU","CastorFI","CastorP","LCastorTU",
+                     "EcalHitsEB","EcalHitsEE","EcalHitsES","EcalTBH4BeamHits",
+                     "HcalHits","HcalTB06BeamHits","ZDCHITS"}
+    VInputTag input ={":CaloHitsTk",":CastorBU",":CastorFI",":CastorP",":LCastorTU",
+                      ":EcalHitsEB",":EcalHitsEE",":EcalHitsES",":EcalTBH4BeamHits",
+                      ":HcalHits",":HcalTB06BeamHits",":ZDCHITS"}
+}
+
+block mixSimTracks= { string type="SimTrack"
+    VInputTag input ={}
+}
+
+block mixSimVertices= { string type="SimVertex"
+    VInputTag input ={}
+}
+
+block mixHepMCProducts= { string type="HepMCProduct"
+    VInputTag input ={}
+}
+
+
