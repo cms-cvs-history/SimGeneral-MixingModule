@@ -1,37 +1,45 @@
 block mixSimHits={ string type="PSimHit"
-    vstring subdets={"BSCHits","FP420SI","MuonCSCHits","MuonDTHits","MuonRPCHits","TotemHitsRP",
-                     "TotemHitsT1","TotemHitsT2Gem","TrackerHitsPixelBarrelHighTof",
+    vstring subdets={"BSCHits","FP420SI","MuonCSCHits","MuonDTHits",
+	             "MuonRPCHits","TotemHitsRP","TotemHitsT1",
+                     "TotemHitsT2Gem","TrackerHitsPixelBarrelHighTof",
                      "TrackerHitsPixelBarrelLowTof","TrackerHitsPixelEndcapHighTof",
-                     "TrackerHitsPixelEndcapLowTof","TrackerHitsTECHighTof","TrackerHitsTECLowTof",
-                     "TrackerHitsTIBHighTof","TrackerHitsTIBLowTof","TrackerHitsTIDHighTof",
-                     "TrackerHitsTIDLowTof","TrackerHitsTOBHighTof","TrackerHitsTOBLowTof"}
-    VInputTag input ={":BSCHits",":FP420SI",":MuonCSCHits",":MuonDTHits",":MuonRPCHits",":TotemHitsRP",
-                      ":TotemHitsT1",":TotemHitsT2Gem",":TrackerHitsPixelBarrelHighTof",
-                      ":TrackerHitsPixelBarrelLowTof",":TrackerHitsPixelEndcapHighTof",
-                      ":TrackerHitsPixelEndcapLowTof",":TrackerHitsTECHighTof",":TrackerHitsTECLowTof",
-                      ":TrackerHitsTIBHighTof",":TrackerHitsTIBLowTof",":TrackerHitsTIDHighTof",
-                      ":TrackerHitsTIDLowTof",":TrackerHitsTOBHighTof",":TrackerHitsTOBLowTof"} 
+                     "TrackerHitsPixelEndcapLowTof","TrackerHitsTECHighTof",
+                     "TrackerHitsTECLowTof","TrackerHitsTIBHighTof",
+                     "TrackerHitsTIBLowTof","TrackerHitsTIDHighTof",
+                     "TrackerHitsTIDLowTof","TrackerHitsTOBHighTof",
+                     "TrackerHitsTOBLowTof"}
+    VInputTag input ={"g4SimHits:BSCHits","g4SimHits:FP420SI","g4SimHits:MuonCSCHits","g4SimHits:MuonDTHits",
+	              "g4SimHits:MuonRPCHits","g4SimHits:TotemHitsRP","g4SimHits:TotemHitsT1",
+                      "g4SimHits:TotemHitsT2Gem","g4SimHits:TrackerHitsPixelBarrelHighTof",
+                      "g4SimHits:TrackerHitsPixelBarrelLowTof","g4SimHits:TrackerHitsPixelEndcapHighTof",
+                      "g4SimHits:TrackerHitsPixelEndcapLowTof","g4SimHits:TrackerHitsTECHighTof",
+                      "g4SimHits:TrackerHitsTECLowTof","g4SimHits:TrackerHitsTIBHighTof",
+                      "g4SimHits:TrackerHitsTIBLowTof","g4SimHits:TrackerHitsTIDHighTof",
+                      "g4SimHits:TrackerHitsTIDLowTof","g4SimHits:TrackerHitsTOBHighTof",
+                      "g4SimHits:TrackerHitsTOBLowTof"} 
 }
 
 block mixCaloHits={ string type="PCaloHit"
-    vstring subdets={"CaloHitsTk","CastorBU","CastorFI","CastorP","LCastorTU",
-                     "EcalHitsEB","EcalHitsEE","EcalHitsES","EcalTBH4BeamHits",
-                     "HcalHits","HcalTB06BeamHits","ZDCHITS"}
-    VInputTag input ={":CaloHitsTk",":CastorBU",":CastorFI",":CastorP",":LCastorTU",
-                      ":EcalHitsEB",":EcalHitsEE",":EcalHitsES",":EcalTBH4BeamHits",
-                      ":HcalHits",":HcalTB06BeamHits",":ZDCHITS"}
+    vstring subdets={"CaloHitsTk","CastorBU","CastorFI","CastorPL",
+                     "CastorTU","EcalHitsEB","EcalHitsEE","EcalHitsES",
+                     "EcalTBH4BeamHits","HcalHits","HcalTB06BeamHits",
+                     "ZDCHITS"}
+    VInputTag input ={"g4SimHits:CaloHitsTk","g4SimHits:CastorBU","g4SimHits:CastorFI","g4SimHits:CastorPL",
+                      "g4SimHits:CastorTU","g4SimHits:EcalHitsEB","g4SimHits:EcalHitsEE","g4SimHits:EcalHitsES",
+                      "g4SimHits:EcalTBH4BeamHits","g4SimHits:HcalHits","g4SimHits:HcalTB06BeamHits",
+                      "g4SimHits:ZDCHITS"}
 }
 
 block mixSimTracks= { string type="SimTrack"
-    VInputTag input ={}
+    VInputTag input ={"g4SimHits"}
 }
 
 block mixSimVertices= { string type="SimVertex"
-    VInputTag input ={}
+    VInputTag input ={"g4SimHits"}
 }
 
 block mixHepMCProducts= { string type="HepMCProduct"
-    VInputTag input ={}
+    VInputTag input ={"g4SimHits"}
 }
 
 
