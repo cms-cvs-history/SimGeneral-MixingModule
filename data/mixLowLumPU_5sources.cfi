@@ -4,6 +4,8 @@
 # or you can replace the type by "none" for a source you dont want
 # please note that the names of the input sources are fixed: 'input', 'cosmics', 'beamhalo_minus', 'beamhalo_plus'
 #
+include "SimGeneral/MixingModule/data/mixObjects.cfi" 
+
   module mix = MixingModule
   {
  
@@ -119,11 +121,11 @@
       string LabelPlayback = ""  
       untracked bool playback = false
 
-  PSet mixObjects ={
-	PSet mixSimTracks = {using mixSimTracks}
-	PSet mixSimVertices =  {using mixSimVertices}
-	PSet mixSimHits =  {using mixSimHits}
-	PSet mixCaloHits =  {using mixCaloHits}
-	PSet mixHepMCProducts = {using mixHepMCProducts}
-  }
+      PSet mixObjects ={
+	PSet mixTracks = {using mixSimTracks}
+	PSet mixVertices =  {using mixSimVertices}
+	PSet mixSH =  {using mixSimHits}
+	PSet mixCH =  {using mixCaloHits}
+	PSet mixHepMC = {using mixHepMCProducts}
+      }
 }

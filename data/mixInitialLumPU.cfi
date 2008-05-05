@@ -1,4 +1,6 @@
 # configuration to model pileup for initial physics phase
+include "SimGeneral/MixingModule/data/mixObjects.cfi" 
+
   module mix = MixingModule
   {
  
@@ -28,12 +30,11 @@
       string LabelPlayback = ""  
       untracked bool playback = false
 
-   PSet mixObjects ={
-	PSet mixSimTracks = {using mixSimTracks}
-	PSet mixSimVertices =  {using mixSimVertices}
-	PSet mixSimHits =  {using mixSimHits}
-	PSet mixCaloHits =  {using mixCaloHits}
-	PSet mixHepMCProducts = {using mixHepMCProducts}
-   }
-  
+      PSet mixObjects ={
+	PSet mixTracks = {using mixSimTracks}
+	PSet mixVertices =  {using mixSimVertices}
+	PSet mixSH =  {using mixSimHits}
+	PSet mixCH =  {using mixCaloHits}
+	PSet mixHepMC = {using mixHepMCProducts}
+      }
   }
