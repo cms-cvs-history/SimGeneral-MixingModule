@@ -39,7 +39,7 @@ block mixSimVertices= { string type="SimVertex"
 }
 
 block mixHepMCProducts= { string type="HepMCProduct"
-    VInputTag input ={"g4SimHits"}
+    VInputTag input ={"source"}
 }
 
 
