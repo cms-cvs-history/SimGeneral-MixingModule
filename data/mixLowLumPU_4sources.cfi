@@ -94,6 +94,7 @@ include "SimGeneral/MixingModule/data/mixObjects.cfi"
       int32 bunchspace = 25 # nsec
       string LabelPlayback = ""  
       untracked bool playback = false
+      bool useCurrentProcessOnly = false
 
       PSet mixObjects ={
 	PSet mixTracks = {using mixSimTracks}

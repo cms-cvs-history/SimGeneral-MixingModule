@@ -30,6 +30,7 @@ include "SimGeneral/MixingModule/data/mixObjects.cfi"
       int32 maxBunch = +3
       string LabelPlayback = ""  
       untracked bool playback = false
+      bool useCurrentProcessOnly = false
 
       PSet mixObjects ={
 	PSet mixTracks = {using mixSimTracks}
