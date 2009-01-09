@@ -1,6 +1,6 @@
 #include "SimDataFormats/Track/interface/SimTrackContainer.h"
 #include "SimDataFormats/Vertex/interface/SimVertexContainer.h"
-#include "SimDataFormats/HepMCProduct/interface/HepMCProduct.h"
+#include "SimDataFormats/GeneratorProducts/interface/HepMCProduct.h"
 #include "MixingWorker.h"
 
 template <> const int  edm::MixingWorker<PSimHit>::lowTrackTof = -36; 
