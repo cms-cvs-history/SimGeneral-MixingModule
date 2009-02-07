@@ -26,7 +26,7 @@
 #include "SimDataFormats/CaloHit/interface/PCaloHitContainer.h"
 #include "SimDataFormats/Track/interface/SimTrackContainer.h"
 #include "SimDataFormats/Vertex/interface/SimVertexContainer.h"
-#include "SimDataFormats/GeneratorProducts/interface/HepMCProduct.h"
+#include "SimDataFormats/HepMCProduct/interface/HepMCProduct.h"
 
 #include "DataFormats/Provenance/interface/ProductID.h"
 #include "DataFormats/Common/interface/Handle.h"
@@ -58,7 +58,7 @@ namespace edm
       virtual void createnewEDProduct();
       virtual void addSignals(const edm::Event &e, const edm::EventSetup& e); 
       virtual void doPileUp(edm::Event &e, const edm::EventSetup& e);
-      virtual void addPileups(const int bcr, EventPrincipal*,unsigned int EventId,unsigned int worker, const edm::EventSetup& e);
+      virtual void addPileups(const int bcr, edm::Event*,unsigned int EventId,unsigned int worker, const edm::EventSetup& e);
       virtual void setEventStartInfo(const unsigned int s); // set in CF-s
       virtual void getEventStartInfo(edm::Event & e, const unsigned int s); // fill in in base class
 
