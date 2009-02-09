@@ -61,9 +61,9 @@ namespace edm
       std::string const subdet_;
       std::string const label_;
       unsigned int const maxNbSources_;
+      InputTag tag_;
       bool checktof_;
       bool isTracker_;      
-      InputTag tag_;
       InputTag opp_;
 
     private:
@@ -73,3 +73,5 @@ namespace edm
 }//edm
 
 #endif
+
+
