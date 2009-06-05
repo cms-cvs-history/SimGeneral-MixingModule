@@ -165,9 +165,12 @@ namespace edm
  
 
   // Virtual destructor needed.
-  MixingModule::~MixingModule() { 
-    for (unsigned int ii=0;ii<workers_.size();ii++) 
+  MixingModule::~MixingModule() {
+     
+    for (unsigned int ii=0;ii<workers_.size();ii++){ 
       delete workers_[ii];
+    }  
+    delete sel_;
   }  
 
   void MixingModule::addSignals(const edm::Event &e, const edm::EventSetup& setup) { 
