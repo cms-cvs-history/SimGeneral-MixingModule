@@ -8,7 +8,7 @@
 //
 // Original Author:  Emilia Lubenova Becheva
 //         Created:  Wed Apr 22 16:54:31 CEST 2009
-// $Id: SecSourceAnalyzer.h,v 1.1 2009/04/24 13:35:34 ebecheva Exp $
+// $Id: SecSourceAnalyzer.h,v 1.2 2010/04/30 12:48:18 ebecheva Exp $
 //
 //
 
@@ -35,21 +35,17 @@
 
 
 //
-// class decleration
+// class declaration
 //
 namespace edm
 {
 class SecSourceAnalyzer : public edm::EDAnalyzer {
    public:
    
-      typedef PileUp::EventPrincipalVector EventPrincipalVector;
-      
       explicit SecSourceAnalyzer(const edm::ParameterSet&);
       ~SecSourceAnalyzer();
 
-      virtual void Loop(const EventPrincipalVector& vec);
-
-      virtual void getBranches(EventPrincipal *ep);
+      virtual void getBranches(EventPrincipal const& ep);
 
    private:
       virtual void beginJob() ;
@@ -57,18 +53,13 @@ class SecSourceAnalyzer : public edm::EDAnalyzer {
       virtual void endJob() ;
 
       // ----------member data ---------------------------
-      int minBunch_;
-      int maxBunch_;
-      
       bool dataStep2_;
       edm::InputTag label_;
       
-      std::vector<std::vector<edm::EventID> > vectorEventIDs_;
+      std::vector<edm::EventID> vectorEventIDs_;
 
       boost::shared_ptr<PileUp> input_;
 
-      std::vector<EventPrincipalVector> pileup_[5];
-       
       InputTag tag_;
  
 };
