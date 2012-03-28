@@ -295,7 +295,7 @@ dropUnwantedBranches(wantedBranches_);
     boost::shared_ptr<PileUp> source0 = inputSources_[0];
 
     if((source0 && source0->doPileUp() ) && !playback_) {
-      //    if((!inputSources_[0] || !inputSources_[0]->doPileUp()) && !playback_ ) {
+      //    if((!inputSources_[0] || !inputSources_[0]->doPileUp()) && !playback_ ) 
 
       // Pre-calculate all pileup distributions before we go fishing for events
 
@@ -310,6 +310,9 @@ dropUnwantedBranches(wantedBranches_);
     for (int bunchIdx = minBunch_; bunchIdx <= maxBunch_; ++bunchIdx) {
       for (size_t setBcrIdx=0; setBcrIdx<workers_.size(); ++setBcrIdx) {
         workers_[setBcrIdx]->setBcrOffset();
+      }
+      for(Accumulators::const_iterator accItr = digiAccumulators_.begin(), accEnd = digiAccumulators_.end(); accItr != accEnd; ++accItr) {
+        (*accItr)->initializeBunchCrossing(e, setup, bunchIdx);
       }
 
       for (size_t readSrcIdx=0; readSrcIdx<maxNbSources_; ++readSrcIdx) {
@@ -354,6 +357,9 @@ dropUnwantedBranches(wantedBranches_);
                         dummyId, vertexOffset, boost::ref(setup))
             );
         }
+      }
+      for(Accumulators::const_iterator accItr = digiAccumulators_.begin(), accEnd = digiAccumulators_.end(); accItr != accEnd; ++accItr) {
+        (*accItr)->finalizeBunchCrossing(e, setup, bunchIdx);
       }
     }
 
