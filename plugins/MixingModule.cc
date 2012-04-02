@@ -170,14 +170,8 @@ dropUnwantedBranches(wantedBranches_);
 
 
   void MixingModule::createDigiAccumulators(const edm::ParameterSet& mixingPSet) {
-    ParameterSet const& digiPSet = mixingPSet.getParameterSet("digitizers");
-    std::vector<std::string> digiNames = digiPSet.getParameterNames();
-
-    std::vector<std::string>::const_iterator digiNameItr = digiNames.begin();
-    std::vector<std::string>::const_iterator digiNameEnd = digiNames.end();
-    for(; digiNameItr != digiNameEnd; ++digiNameItr) {
-        ParameterSet const& pset = digiPSet.getParameterSet(*digiNameItr);
-
+    std::vector<ParameterSet> const& digiPSets = mixingPSet.getParameterSetVector("digitizers");
+    for(ParameterSet const& pset : digiPSets) {
         std::auto_ptr<DigiAccumulatorMixMod> accumulator = std::auto_ptr<DigiAccumulatorMixMod>(DigiAccumulatorMixModFactory::get()->makeDigiAccumulator(pset, *this));
         // Create appropriate DigiAccumulator
         if(accumulator.get() != 0) {
