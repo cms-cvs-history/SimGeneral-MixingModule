@@ -3,8 +3,21 @@ import FWCore.ParameterSet.Config as cms
 # configuration to model pileup for initial physics phase
 from SimGeneral.MixingModule.mixObjects_cfi import * 
 from SimGeneral.MixingModule.mixPoolSource_cfi import * 
+from SimGeneral.MixingModule.pixelDigitizer_cfi import *
+from SimGeneral.MixingModule.stripDigitizer_cfi import *
+from SimGeneral.MixingModule.ecalDigitizer_cfi import *
+from SimGeneral.MixingModule.hcalDigitizer_cfi import *
+from SimGeneral.MixingModule.castorDigitizer_cfi import *
+
 
 mix = cms.EDProducer("MixingModule",
+    digitizers = cms.VPSet(
+      pixelDigitizer,
+      stripDigitizer,
+      ecalDigitizer,
+      hcalDigitizer,
+      castorDigitizer
+    ),
     LabelPlayback = cms.string(''),
     maxBunch = cms.int32(3),
     minBunch = cms.int32(-2), ## in terms of 25 nsec
