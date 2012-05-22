@@ -1,6 +1,7 @@
 import FWCore.ParameterSet.Config as cms
 
 # configuration to model pileup for initial physics phase
+from SimGeneral.MixingModule.aliases_cfi import * 
 from SimGeneral.MixingModule.mixObjects_cfi import * 
 from SimGeneral.MixingModule.mixPoolSource_cfi import * 
 from SimGeneral.MixingModule.pixelDigitizer_cfi import *
