@@ -27,9 +27,9 @@ simSiPixelDigis = cms.EDAlias(
     )
 )
 simSiStripDigis = cms.EDAlias(
-    #QQQ = cms.VPSet(
-    #  cms.PSet(type = cms.string('StripDigiSimLinkedmDetSetVector'))
-    #),
+    simSiStripDigiSimLink = cms.VPSet(
+      cms.PSet(type = cms.string('StripDigiSimLinkedmDetSetVector'))
+    ),
     mix = cms.VPSet(
       cms.PSet(type = cms.string('SiStripDigiedmDetSetVector')),
       cms.PSet(type = cms.string('SiStripRawDigiedmDetSetVector'))

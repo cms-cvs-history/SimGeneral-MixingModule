@@ -63,7 +63,8 @@ mixCaloHits = cms.PSet(
         cms.InputTag("g4SimHits","EcalHitsEB"), cms.InputTag("g4SimHits","EcalHitsEE"), cms.InputTag("g4SimHits","EcalHitsES"), cms.InputTag("g4SimHits","EcalTBH4BeamHits"), cms.InputTag("g4SimHits","HcalHits"), 
         cms.InputTag("g4SimHits","HcalTB06BeamHits"), cms.InputTag("g4SimHits","ZDCHITS")),
     type = cms.string('PCaloHit'),
-    subdets = cms.vstring('CaloHitsTk', 
+    subdets = cms.vstring(
+        'CaloHitsTk', 
         'CastorBU', 
         'CastorFI', 
         'CastorPL', 
@@ -75,7 +76,19 @@ mixCaloHits = cms.PSet(
         'HcalHits', 
         'HcalTB06BeamHits', 
         'ZDCHITS'),
-    crossingFrames = cms.untracked.vstring()
+    crossingFrames = cms.untracked.vstring(
+        'CaloHitsTk', 
+        'CastorBU', 
+        'CastorFI', 
+        'CastorPL', 
+        'CastorTU', 
+        'EcalHitsEB', 
+        'EcalHitsEE', 
+        'EcalHitsES', 
+        'EcalTBH4BeamHits', 
+        'HcalHits', 
+        'HcalTB06BeamHits', 
+        'ZDCHITS')
 )
 mixSimTracks = cms.PSet(
     #makeCrossingFrame = cms.untracked.bool(False),
