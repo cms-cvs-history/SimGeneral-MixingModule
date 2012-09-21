@@ -41,7 +41,7 @@ pixelDigitizer = cms.PSet(
     TanLorentzAnglePerTesla_BPix = cms.double(0.106),
     AddNoisyPixels = cms.bool(True),
     Alpha2Order = cms.bool(True),
-    AddPixelInefficiency = cms.int32(0),
+    AddPixelInefficiency = cms.int32(-20),
     AddNoise = cms.bool(True),
     ChargeVCALSmearing = cms.bool(True),
     GainSmearing = cms.double(0.0),
@@ -57,6 +57,13 @@ pixelDigitizer = cms.PSet(
     PixelEff     = cms.double(1.0),
     PixelColEff  = cms.double(1.0),
     PixelChipEff = cms.double(1.0),
+    thePixelColEfficiency_BPix1 = cms.double(0.9762),
+    thePixelColEfficiency_BPix2 = cms.double(0.9954),
+    thePixelColEfficiency_BPix3 = cms.double(0.9982),
+    thePixelColEfficiency_BPix4 = cms.double(0.9992),
+    thePixelColEfficiency_FPix1 = cms.double(0.9982),
+    #thePixelColEfficiency_FPix2 = cms.double(0.9982),
+    #thePixelColEfficiency_FPix2 = cms.double(0.9982),
 DeadModules = cms.VPSet(
  cms.PSet(Dead_detID = cms.int32(302055940), Module = cms.string("tbmB"))
 ,cms.PSet(Dead_detID = cms.int32(302059800), Module = cms.string("whole"))
