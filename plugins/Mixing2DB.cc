@@ -104,8 +104,7 @@ Mixing2DB::endJob()
   edm::Service<cond::service::PoolDBOutputService> poolDbService;
   MixingModuleConfig * config = new MixingModuleConfig();
   config->read(cfi_);
-  poolDbService->createNewIOV<MixingModuleConfig>(config,
-						  poolDbService->beginOfTime(),poolDbService->endOfTime(),
-						  "MixingRcd");
-
+  poolDbService->writeOne<MixingModuleConfig>(config,
+					      poolDbService->currentTime(),
+					      "MixingRcd");
 }
