@@ -7,7 +7,7 @@ from SimGeneral.MixingModule.mixPoolSource_cfi import *
 mix = cms.EDProducer("MixingModule",
     LabelPlayback = cms.string(''),
     maxBunch = cms.int32(3),
-    minBunch = cms.int32(-2), ## in terms of 25 nsec
+    minBunch = cms.int32(-12), ## in terms of 25 nsec
 
     bunchspace = cms.int32(50), ##ns
     mixProdStep1 = cms.bool(False),
